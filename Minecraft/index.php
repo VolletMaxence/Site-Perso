@@ -11,7 +11,7 @@
     </head>
     <body>
         <?php
-            include '../Menu/Menu.php';
+            include '../Menu/Menu.php'; // Hello Gros Chien //
         ?>
     </body>
 </html>
