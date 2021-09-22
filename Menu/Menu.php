@@ -39,7 +39,8 @@
                                     Sky : Child of Light
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">?</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Esprit</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Enfant de Lumière</a></li>
                                 </ul>
                                 <!-- Dropdown Monster Hunter -->
                                 <li class="nav-item dropdown">
@@ -47,7 +48,6 @@
                                     Monster Hunter
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="Monster-Hunter/Monster Hunter World">Monster Hunter World</a></li>
                                     <li><a class="dropdown-item" href="Monster-Hunter/Monster Hunter World Iceborn">Monster Hunter World Iceborn</a></li>
                         <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="Monster-Hunter/Monster Hunter Rise">Monster Hunter World Rise</a></li>
@@ -97,7 +97,8 @@
                                     Sky : Child of Light
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">?</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Esprit</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Enfant de Lumière</a></li>
                                 </ul>
                                 <!-- Dropdown Monster Hunter -->
                                 <li class="nav-item dropdown">
@@ -105,7 +106,6 @@
                                     Monster Hunter
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Monster Hunter World</a></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Iceborn</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Rise</a></li>
@@ -154,7 +154,8 @@
                                     Sky : Child of Light
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">?</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Esprit</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Enfant de Lumière</a></li>
                                 </ul>
                                 <!-- Dropdown Monster Hunter -->
                                 <li class="nav-item dropdown">
@@ -162,7 +163,6 @@
                                     Monster Hunter
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Monster Hunter World</a></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Iceborn</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Rise</a></li>
@@ -210,7 +210,8 @@
                                     Sky : Child of Light
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">?</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Esprit</a></li>
+                                    <li><a class="dropdown-item" href="#">Position Enfant de Lumière</a></li>
                                 </ul>
                                 <!-- Dropdown Monster Hunter -->
                                 <li class="nav-item dropdown">
@@ -218,7 +219,7 @@
                                     Monster Hunter
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Monster Hunter World</a></li>
+
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Iceborn</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Rise</a></li>
