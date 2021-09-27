@@ -28,6 +28,35 @@
 
             <button type="button" onclick="getSelectValue('Zone')"> Trouve ton Esprit </button>
         </form>
+
+        <!-- Div pour image -->
+        <div id="a"></div>
+        <div id="b"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+        <div id="e"></div>
+        <div id="f"></div>
+        <div id="g"></div>
+        <div id="h"></div>
+        <div id="i"></div>
+        <div id="j"></div>
+        <div id="k"></div>
+        <div id="l"></div>
+        <div id="m"></div>
+        <div id="n"></div>
+        <div id="o"></div>
+        <div id="p"></div>
+        <div id="q"></div>
+        <div id="r"></div>
+        <div id="s"></div>
+        <div id="t"></div>
+        <div id="u"></div>
+        <div id="v"></div>
+        <div id="w"></div>
+        <div id="x"></div>
+        <div id="y"></div>
+        <div id="z"></div>
+
         <script type="text/javascript">
             getFormulaireEspritZone(selectValue);
         </script>
