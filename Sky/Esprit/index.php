@@ -31,7 +31,7 @@
 
         <!-- Div pour image -->
         <div id="a"></div>
-        <div id="b"></div>
+        <div id="b" class="img-responsive center-block"></div>
         <div id="c"></div>
         <div id="d"></div>
         <div id="e"></div>
