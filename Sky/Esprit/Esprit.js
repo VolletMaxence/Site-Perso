@@ -2,15 +2,26 @@
 function getSelectValue(selectId)
 {
     /**On récupère l'élement html <select>*/
-    var selectElmt = document.getElementById(selectId);
+    var Zone = document.getElementById(selectId);
     /**
     selectElmt.options correspond au tableau des balises <option> du select
     selectElmt.selectedIndex correspond à l'index du tableau options qui est actuellement sélectionné
     */
 
 
-    switch (selectElmt) {
+    InfoZone = Zone.options[Zone.selectedIndex].value;
+    
+    alert(InfoZone);
+
+    getFormulaireEspritZone(InfoZone);
+}
+
+//Change de formulaire selon choix
+function getFormulaireEspritZone(Zone)
+{
+    switch (Zone) {
         case 'Ile':
+            //Afficher formulaire pour selection esprit
             
             break;
         case 'Prairie' :
@@ -32,12 +43,6 @@ function getSelectValue(selectId)
 
             break;
     }
-    return selectElmt.options[selectElmt.selectedIndex].value;
 
 }
 
-//Change de formulaire selon choix
-function getFormulaireEspritZone(Zone)
-{
-    
-}
