@@ -29,34 +29,50 @@
         </form>
 
         <!-- Div pour image -->
-        <div id="a" class="container col-4 mx-auto d-block"></div>
-        <div id="b" class="mx-auto"></div>
-        <div id="c" class="thumbnail col-md-4"></div>
-
-        <div id="d"></div>
-        <div id="e"></div>
-        <div id="f"></div>
-        <div id="g"></div>
-        <div id="h"></div>
-        <div id="i"></div>
-        <div id="j"></div>
-        <div id="k"></div>
-        <div id="l"></div>
-        <div id="m"></div>
-        <div id="n"></div>
-        <div id="o"></div>
-        <div id="p"></div>
-        <div id="q"></div>
-        <div id="r"></div>
-        <div id="s"></div>
-        <div id="t"></div>
-        <div id="u"></div>
-        <div id="v"></div>
-        <div id="w"></div>
-        <div id="x"></div>
-        <div id="y"></div>
-        <div id="z"></div>
-
+        <div class="d-flex" height="250px">
+            <div id="a" class="float-right"></div>
+            <div id="b" class="container col-1 mx-auto d-block"></div>
+            <div id="c" class="float-left"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="d" class="float-right"></div>
+            <div id="e" class="container col-1 mx-auto d-block"></div>
+            <div id="f"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="g" class="float-right"></div>
+            <div id="h" class="container col-1 mx-auto d-block"></div>
+            <div id="i"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="j" class="float-right"></div>
+            <div id="k" class="container col-1 mx-auto d-block"></div>
+            <div id="l"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="m" class="float-right"></div>
+            <div id="n" class="container col-1 mx-auto d-block"></div>
+            <div id="o"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="p" class="float-right"></div>
+            <div id="q" class="container col-1 mx-auto d-block"></div>
+            <div id="r"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="s" class="float-right"></div>
+            <div id="t" class="container col-1 mx-auto d-block"></div>
+            <div id="u"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="v" class="float-right"></div>
+            <div id="w" class="container col-1 mx-auto d-block"></div>
+            <div id="x"></div>
+        </div>
+        <div class="d-flex" height="250px">
+            <div id="y" class="float-right"></div>
+            <div id="z" class="container col-1 mx-auto d-block"></div>
+        </div>
 
         <script src="Esprit.js"></script>
 
