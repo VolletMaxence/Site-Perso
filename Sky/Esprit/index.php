@@ -6,7 +6,6 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- JS Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="Esprit.js"></script>
         <meta charset="UTF-8">
         <title> Site d'un bon Gros Chien - Sky : Children of the Light - Esprit </title>
     </head>
@@ -30,9 +29,10 @@
         </form>
 
         <!-- Div pour image -->
-        <div id="a"></div>
-        <div id="b" class="img-responsive center-block"></div>
-        <div id="c"></div>
+        <div id="a" class="container col-4 mx-auto d-block"></div>
+        <div id="b" class="mx-auto"></div>
+        <div id="c" class="thumbnail col-md-4"></div>
+
         <div id="d"></div>
         <div id="e"></div>
         <div id="f"></div>
@@ -57,8 +57,9 @@
         <div id="y"></div>
         <div id="z"></div>
 
-        <script type="text/javascript">
-            getFormulaireEspritZone(selectValue);
-        </script>
+
+        <script src="Esprit.js"></script>
+
+
     </body>
 </html>

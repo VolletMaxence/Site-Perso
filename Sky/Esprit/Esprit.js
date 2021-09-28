@@ -62,3 +62,12 @@ function afficheEmoteIle()
     div.appendChild(myImage);
 }
 
+
+
+document.getElementById( "a" ).addEventListener( "click", function () 
+{
+
+    console.log("t'as clicked sur mon fiak de pute ");
+    //Afficher map avec uniquement CET esprit
+
+});
