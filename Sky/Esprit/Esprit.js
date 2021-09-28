@@ -241,7 +241,7 @@ function afficheEmoteForet()
     div.appendChild(myImage);
         
     var myImage = new Image(191, 191);
-    myImage.src = 'Image/Foret/Saison/Mimi-4117_02_provoking_performer_emote';
+    myImage.src = 'Image/Foret/Saison/Mimi-4117_02_provoking_performer_emote.png';
     var div = document.getElementById("i");
     div.appendChild(myImage);
     
@@ -335,7 +335,7 @@ function afficheEmoteVallee()
     div.appendChild(myImage);
         
     var myImage = new Image(191, 191);
-    myImage.src = 'Image/Vallee/Saison/Mimi-4117_03_twirling_champion_emote';
+    myImage.src = 'Image/Vallee/Saison/Mimi-4117_03_twirling_champion_emote.png';
     var div = document.getElementById("i");
     div.appendChild(myImage);
     
@@ -372,12 +372,165 @@ function afficheEmoteVallee()
 
 function afficheEmoteDesert()
 {
+    //Affiche des images des émotes :
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Base/FrightenedRefugee-1.png';
+    var div = document.getElementById("a");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Base/FaintingWarrior-1.png';
+    var div = document.getElementById("b");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Base/CourageousSoldier-1.png';
+    var div = document.getElementById("c");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Base/StealthySurvivor-1.png';
+    var div = document.getElementById("d");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Base/SalutingCaptain-1.png';
+    var div = document.getElementById("e");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Base/LookoutScout-1.png';
+    var div = document.getElementById("f");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Mimi-4117_02_saluting_protector_emote.png';
+    var div = document.getElementById("g");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Mimi-4117_03_crab_whisperer_emote.png';
+    var div = document.getElementById("h");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Belonging_crawl.png';
+    var div = document.getElementById("i");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Emote-respect.png';
+    var div = document.getElementById("j");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Head_nod_white_on_black.png';
+    var div = document.getElementById("k");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Shrug_white_on_black.png';
+    var div = document.getElementById("l");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Crab_walk_white_on_black.png';
+    var div = document.getElementById("m");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Boo_white_on_black.png';
+    var div = document.getElementById("n");
+    div.appendChild(myImage);
 
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Fall_asleep_white_on_black.png';
+    var div = document.getElementById("o");
+    div.appendChild(myImage);
+
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Desert/Saison/Play_fight_lvl_2_white_on_black.png';
+    var div = document.getElementById("p");
+    div.appendChild(myImage);
 }
 
 function afficheEmoteChambre()
 {
+    //Affiche des images des émotes :
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Base/PrayingAcolyte-1.png';
+    var div = document.getElementById("a");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Base/LevitatingAdept-1.png';
+    var div = document.getElementById("b");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Base/PoliteScholar-1.png';
+    var div = document.getElementById("c");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Base/MemoryWhisperer-1.png';
+    var div = document.getElementById("d");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Base/Meditating-Monastic-1.png';
+    var div = document.getElementById("e");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/Mimi-4117_02_greeting_shaman_emote.png';
+    var div = document.getElementById("f");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/Mimi-4117_03_shushing_light_scholar_emote.png';
+    var div = document.getElementById("g");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/Belonging_stance_think.png';
+    var div = document.getElementById("h");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/Emote-thinking.png';
+    var div = document.getElementById("i");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/SOTLP-Beckoning-Ruler.png';
+    var div = document.getElementById("j");
+    div.appendChild(myImage);
+        
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/SOTLP-Gloating-Narcissist.png';
+    var div = document.getElementById("k");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/SOTLP-Stretching-Lamplighter.png';
+    var div = document.getElementById("l");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/SOTLP-Slouching-Soldier.png';
+    var div = document.getElementById("m");
+    div.appendChild(myImage);
+    
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/SOTLP-Sneezing-Geographer.png';
+    var div = document.getElementById("n");
+    div.appendChild(myImage);
 
+    var myImage = new Image(191, 191);
+    myImage.src = 'Image/Chambre/Saison/SOTLP-Star-Collector.png';
+    var div = document.getElementById("o");
+    div.appendChild(myImage);
 }
 
 function afficheEmoteEden()
