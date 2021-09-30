@@ -53,8 +53,6 @@ function afficheEmoteIle()
     //Ajouter une class
     myImage.className += "aIle";
 
-
-
     var myImage = new Image(191, 191);
     myImage.src = 'Image/Ile/Base/UsheringStargazer-1.png';
     var div = document.getElementById("b");
@@ -114,6 +112,8 @@ function afficheEmoteIle()
     var div = document.getElementById("k");
     div.appendChild(myImage);
     myImage.className += "kIle";
+
+    afficheMapEspritIle();
 }
 
 //Affiche les émote prsent dans la prairie
@@ -634,18 +634,11 @@ function afficheEmoteEden()
 
 }
 
-document.getElementById( "a" ).addEventListener( "click", function () 
+function afficheMapEspritIle()
 {
-    console.log("t'as clicked sur mon fiak de pute ");
-    
-    
-    var img = document.createElement("IMG");
-    img.src = "Image/Ile/Map/MapA.png";
-    var oldImg = document.getElementById('oldImg');
-    document.getElementById('b').replaceChild(img, oldImg);
-
-    document.getElementById("a").src="Image/Ile/Map/MapA.png";
-
-    //Afficher map avec uniquement CET esprit
-
-});
+    document.querySelector( ".aIle" ).addEventListener( "click", function () 
+    {
+        console.log("t'as clicked sur mon fiak de pute ");
+    })
+        //Afficher map avec uniquement CET esprit 
+}
