@@ -634,11 +634,1048 @@ function afficheEmoteEden()
 
 }
 
+function supprTouteImage()
+{
+    var el = document.getElementById('a');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('b');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('c');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('d');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('e');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('f');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('g');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('h');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('i');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('j');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('k');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('l');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('m');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('n');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('o');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('p');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('q');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('r');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('s');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('t');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('u');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('v');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('w');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('x');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('y');
+    el.parentNode.removeChild(el);
+
+    var el = document.getElementById('z');
+    el.parentNode.removeChild(el);
+}
+
 function afficheMapEspritIle()
 {
     document.querySelector( ".aIle" ).addEventListener( "click", function () 
     {
-        console.log("t'as clicked sur mon fiak de pute ");
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".bIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".cIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".dIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".eIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".fIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".gIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".hIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".iIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".jIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".kIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".lIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".mIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".nIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".oIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".pIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".qIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".rIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".sIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".tIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".uIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".vIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".wIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".xIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".yIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".zIle" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+        //Afficher map avec uniquement CET esprit 
+}
+
+function afficheMapEspritPrairie()
+{
+    document.querySelector( ".aPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        console.log("bujifeubeif");
+
+    })
+
+    document.querySelector( ".bPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".cPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".dPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".ePrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".fPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".gPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".hPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".iPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".jPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".kPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".lPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".mPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".nPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".oPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".pPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".qPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".rPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".sPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".tPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".uPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".vPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".wPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".xPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".yPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".zPrairie" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+        //Afficher map avec uniquement CET esprit 
+}
+
+function afficheMapEspritForet()
+{
+    document.querySelector( ".aForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+        
+    })
+
+    document.querySelector( ".bForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".cForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".dForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".eForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".fForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".gForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".hForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".iForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".jForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".kForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".lForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".mForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".nForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".oForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".pForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".qForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".rForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".sForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".tForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".uForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".vForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".wForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".xForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".yForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".zForet" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+        //Afficher map avec uniquement CET esprit 
+}
+
+function afficheMapEspritVallee()
+{
+    document.querySelector( ".aVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+        
+    })
+
+    document.querySelector( ".bVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".cVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".dVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".eVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".fVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".gVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".hVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".iVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".jVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".kVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".lVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".mVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".nVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".oVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".pVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".qVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".rVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".sVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".tVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".uVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".vVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".wVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".xVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".yVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".zVallee" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+        //Afficher map avec uniquement CET esprit 
+}
+
+function afficheMapEspritDesert()
+{
+    document.querySelector( ".aDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+        
+    })
+
+    document.querySelector( ".bDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".cDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".dDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".eDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".fDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".gDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".hDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".iDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".jDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".kDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".lDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".mDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".nDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".oDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".pDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".qDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".rDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".sDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".tDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".uDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".vDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".wDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".xDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".yDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".zDesert" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+        //Afficher map avec uniquement CET esprit 
+}
+
+function afficheMapEspritChambre()
+{
+    document.querySelector( ".aChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+        
+    })
+
+    document.querySelector( ".bChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".cChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".dChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".eChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".fChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".gChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".hChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".iChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".jChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".kChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".lChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".mChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".nChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".oChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".pChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".qChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".rChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".sChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".tChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".uChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".vChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".wChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".xChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".yChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
+    })
+
+    document.querySelector( ".zChambre" ).addEventListener( "click", function () 
+    {
+        supprTouteImage();
+        
     })
         //Afficher map avec uniquement CET esprit 
 }
