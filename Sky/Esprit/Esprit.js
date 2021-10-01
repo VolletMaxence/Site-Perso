@@ -227,6 +227,8 @@ function afficheEmotePrairie()
     var div = document.getElementById("r");
     div.appendChild(myImage);
     myImage.className += "rPrairie";
+
+    afficheMapEspritPrairie();
 }
 
 function afficheEmoteForet()
@@ -339,6 +341,8 @@ function afficheEmoteForet()
     var div = document.getElementById("r");
     div.appendChild(myImage);
     myImage.className += "rForet";
+
+    afficheMapEspritForet()
 }
 
 function afficheEmoteVallee()
@@ -433,6 +437,8 @@ function afficheEmoteVallee()
     var div = document.getElementById("o");
     div.appendChild(myImage);
     myImage.className += "oVallee";
+
+    afficheMapEspritVallee()
 }
 
 function afficheEmoteDesert()
@@ -533,6 +539,8 @@ function afficheEmoteDesert()
     var div = document.getElementById("p");
     div.appendChild(myImage);
     myImage.className += "pDesert";
+
+    afficheMapEspritDesert()
 }
 
 function afficheEmoteChambre()
@@ -627,6 +635,8 @@ function afficheEmoteChambre()
     var div = document.getElementById("o");
     div.appendChild(myImage);
     myImage.className += "oChambre";
+
+    afficheMapEspritChambre()
 }
 
 function afficheEmoteEden()
