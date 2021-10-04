@@ -7,4 +7,5 @@
   Calcl coverage type pokemon
   
 - SKY ?
-  Aucune idée mdr
+  Liste esprit pour les trouver ces enculés
+   Liste gamin pour faire le pédo
