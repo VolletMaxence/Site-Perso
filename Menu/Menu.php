@@ -11,7 +11,7 @@
     //echo "$url";
     $pseudo = NULL;
     //Récupérer le pseudo depuis la base si connecter;
-    
+
 
     switch ( $path )
     {
@@ -72,29 +72,31 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="../../Session/logout.php"> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="Session/logout.php"> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
-                                {?>
-                                <form class="d-flex">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="Session/Se_Connecter.php" id="" role="button" aria-expanded="false">
-                                            Se Connecter
-                                        </a>
-                                </form>
-                                <?php 
+                                { ?>
+                                    <form class="d-flex">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="Session/Se_Connecter.php" id="" role="button" aria-expanded="false">
+                                                Se Connecter
+                                            </a>
+                                    </form>
+                                    <?php 
                                 } 
                                 ?>
                             </ul>
@@ -161,19 +163,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="../../Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="../../Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
@@ -249,19 +253,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="../../Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="../../Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
@@ -338,19 +344,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="../../Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="../../Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
@@ -426,19 +434,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="../../Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="../../Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
@@ -514,19 +524,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="../../Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="../../Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
@@ -602,19 +614,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="../Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="../Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
@@ -691,19 +705,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
@@ -779,19 +795,21 @@
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
-                                    <!-- Dropdown Minecraft -->
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Compte
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item disabled" href="Compte">Votre Compte</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href=../Session/logout.php> Se déconnecter </a>                                       
-                                        </li>
-                                    </ul>
+                                    <form class="d-flex">
+                                        <!-- Dropdown Minecraft -->
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Compte
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a class="dropdown-item disabled" href="Compte">Votre Compte</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href=../Session/logout.php> Se déconnecter </a>                                       
+                                            </li>
+                                        </ul>
+                                    </form>
                                 <?php   
                                 }else 
                                 {?>
