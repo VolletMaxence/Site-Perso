@@ -33,7 +33,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -42,7 +45,17 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>
+=======
                                     <li><a class="dropdown-item" href="#">JSP mdr</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
@@ -63,19 +76,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="Monster-Hunter/Monster Hunter Rise">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link" href="Manga" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item dropdown">
                                 <a class="nav-link" href="Manga" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>                            
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -96,8 +127,13 @@
                                                 Se Connecter
                                             </a>
                                     </form>
+<<<<<<< HEAD
+                                <?php 
+                                }
+=======
                                     <?php 
                                 } 
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 ?>
                             </ul>
                         </div>
@@ -105,7 +141,10 @@
                 </nav>
             <?php
         break;
+<<<<<<< HEAD
+=======
         
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
         case "C:\wamp64\www\Site-Perso\Minecraft\Cercle" :
         case "/home/xencev/www/Minecraft/Cercle" :
             ?>
@@ -124,7 +163,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item disabled" href="../../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="../../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -133,8 +175,18 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>                                </ul>
+=======
                                     <li><a class="dropdown-item" href="#">JSP mdr</a></li>
                                 </ul>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -154,19 +206,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item dropdown">
                                 <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -214,7 +284,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item disabled" href="../../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -223,7 +296,17 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>                                
+=======
                                     <li><a class="dropdown-item" href="#">JSP mdr</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
@@ -244,19 +327,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item dropdown">
                                 <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -304,7 +405,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="../../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -313,6 +417,16 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item disabled" href="../../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>
+=======
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
@@ -334,6 +448,20 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <form class="d-flex">
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item dropdown">
                                 <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
                                     Manga
@@ -341,13 +469,18 @@
                             </ul>
                             <form class="d-flex">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -395,7 +528,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="../../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -404,6 +540,16 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>
+=======
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
@@ -425,19 +571,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item dropdown">
                                 <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -485,7 +649,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="../../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -494,6 +661,16 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>
+=======
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
@@ -515,19 +692,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="../../Monster-Hunter">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item dropdown">
                                 <a class="nav-link" href="../../Manga" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -575,7 +770,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -584,8 +782,18 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>                                </ul>
+=======
                                     <li><a class="dropdown-item" href="#">JSP mdr</a></li>
                                 </ul>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -605,19 +813,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="../Monster-Hunter">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item">
                                 <a class="nav-link disabled" href="#" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -666,7 +892,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -675,8 +904,18 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>                                </ul>
+=======
                                     <li><a class="dropdown-item" href="#">JSP mdr</a></li>
                                 </ul>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -696,19 +935,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="../Monster-Hunter">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="../Manga/index.php" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item">
                                 <a class="nav-link" href="../Manga/index.php" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -756,7 +1013,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../Minecraft/Cercle">Générateur Cercle</a></li>
+<<<<<<< HEAD
+=======
                                     <li><a class="dropdown-item" href="../Minecraft/Sphere">Générateur Sphère</a></li>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 </ul>
                                 <!-- Dropdown Pokémon -->
                                 <li class="nav-item dropdown">
@@ -765,8 +1025,18 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../Pokemon/Coverage">Coverage</a></li>
+<<<<<<< HEAD
+                                    <?php
+                                    if($_SESSION && $_SESSION['Connect'] == true)
+                                    { ?>
+                                        <li><a class="dropdown-item" href="#">Reset Shiny</a></li>
+                                    <?php
+                                    }
+                                    ?>                                </ul>
+=======
                                     <li><a class="dropdown-item" href="#">JSP mdr</a></li>
                                 </ul>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <!-- Dropdown Sky -->
                                 <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -786,19 +1056,37 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="../Monster-Hunter">Monster Hunter World Rise</a></li>
                                 </ul>
+<<<<<<< HEAD
+                                <?php
+                                if($_SESSION && $_SESSION['Connect'] == true)
+                                { ?>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="../Manga/index.php" id="" role="button" aria-expanded="false">
+                                        Manga
+                                    </a>
+                                <?php   
+                                }?>
+                            </ul>
+                            <ul class="navbar-nav me-5 px-3">
+=======
                                 <li class="nav-item">
                                 <a class="nav-link" href="../Manga/index.php" id="" role="button" aria-expanded="false">
                                     Manga
                                 </a>
                             </ul>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                 <?php
                                 if($_SESSION && $_SESSION['Connect'] == true)
                                 { ?>
                                     <form class="d-flex">
                                         <!-- Dropdown Minecraft -->
                                         <li class="nav-item dropdown">
+<<<<<<< HEAD
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+=======
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Compte
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -815,7 +1103,11 @@
                                 {?>
                                 <form class="d-flex">
                                     <li class="nav-item">
+<<<<<<< HEAD
+                                        <a class="nav-link disabled" href="../Session/Se_Connecter.php" id="" role="button" aria-expanded="false">
+=======
                                         <a class="nav-link" href="../Session/Se_Connecter.php" id="" role="button" aria-expanded="false">
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
                                             Se Connecter
                                         </a>
                                 </form>
@@ -829,4 +1121,8 @@
             <?php
         break;
     }
+<<<<<<< HEAD
     ?>
+=======
+    ?>
+>>>>>>> 744ad746f7dcaaa2bafe9aadee57926a38bebb86
