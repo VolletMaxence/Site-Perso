@@ -17,6 +17,7 @@
     {
         case "C:\wamp64\www\Site-Perso": 
         case "/home/xencev/www" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -117,6 +118,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Minecraft\Cercle" :
         case "/home/xencev/www/Minecraft/Cercle" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Minecraft\Cercle" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -216,6 +218,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Minecraft\Sphere" :
         case "/home/xencev/www/Minecraft/Sphere" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Minecraft\Sphere" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -316,6 +319,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Pokemon\Coverage" :
         case "/home/xencev/www/Pokemon/Coverage" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Pokemon\Coverage" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -418,6 +422,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Pokemon\Reset" :
         case "/home/xencev/www/Pokemon/Reset" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Pokemon\Reset" :
             ?>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -520,6 +525,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Sky\Esprit" :
         case "/home/xencev/www/Sky/Esprit" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Sky\Esprit" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -621,6 +627,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Sky\Enfant" :
         case "/home/xencev/www/Sky/Enfant" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Sky\Enfant" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -722,6 +729,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Manga" :
         case "/home/xencev/www/Manga" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Manga" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -823,6 +831,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Session" :
         case "/home/xencev/www/Session" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Session" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -923,6 +932,7 @@
         break;
         case "C:\wamp64\www\Site-Perso\Compte" :
         case "/home/xencev/www/Compte" :
+        case "C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\Site-Perso\Compte" :
             ?>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
