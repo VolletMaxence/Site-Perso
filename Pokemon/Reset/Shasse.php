@@ -13,11 +13,13 @@
         <?php
         include '../../Menu/Menu.php'; // Hello Gros Chien //
         include 'Shiny.php';
-        include "../../Session/BDD.php"
+        include "../../Session/BDD.php";
 
         $ID = $_SESSION['ID'];
         $Poke = $_SESSION['Shasse'];
         
+        console_log($_SESSION['ID']);
+
         $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur`= ? AND `Fini` is NULL AND `Nom`= ? ");
         $stmt->execute(array($ID, $Poke));
         $Shiny = $stmt->fetch();

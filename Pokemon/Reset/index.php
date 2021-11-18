@@ -29,8 +29,8 @@
             $stmt = $stmt->fetch();
             //ID de l'utilisateur
             $ID = $stmt['ID'];
-            console_log($Pseudo);
             $_SESSION['ID'] = $ID;
+            console_log($ID);
 
             //ID	Nom	Rencontre	Version	ID_Utilisateur	Sexe Fini
             $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur` = ?");
