@@ -13,7 +13,8 @@
     <?php
     session_start();
     include '../Menu/Menu.php'; // Hello Gros Chien //
-
+    include "BDD.php";
+    
     if($_SESSION && $_SESSION['Connect'] == true)
     {
         //Si session existe :
@@ -39,13 +40,12 @@
         <?php
         //si session existe pas :
         //connexion base : 
-        $dbh = new PDO("mysql:host=localhost; dbname=site-perso; charset=utf8", "root", "");
         if (isset($_POST["submit"])) 
         {
             if((!empty($_POST['password'])) && (!empty($_POST['username'])))
             {
                 //requete préparé
-                $stmt = $dbh->prepare("SELECT * FROM utilisateur WHERE username = ? AND mdp = ?");
+                $stmt = $_SQL->prepare("SELECT * FROM utilisateur WHERE username = ? AND mdp = ?");
                 $stmt->execute(array($_POST['username'], $_POST['password']));
                 $stmt = $stmt->fetch();
 
@@ -53,7 +53,7 @@
                 if (!$stmt) 
                 {
                     //On recoit rien, donc le username n'existe pas déjà, donc c'est bon
-                    $stmt = $dbh->prepare("INSERT INTO `utilisateur`(`username`, `mdp`) VALUES (?,?)");
+                    $stmt = $_SQL->prepare("INSERT INTO `utilisateur`(`username`, `mdp`) VALUES (?,?)");
                     $stmt->execute(array($_POST['username'], $_POST['password']));
                     $stmt = $stmt->fetch();
 

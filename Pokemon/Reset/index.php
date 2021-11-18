@@ -13,6 +13,7 @@
         <?php
             include '../../Menu/Menu.php'; // Hello Gros Chien //
             include 'Shiny.php';
+            require "../../Session/BDD.php";
         ?>
         <!-- Pouvoir reprendre une shasse en cour
         Appuiez sur un bouton = +1 au conteur
@@ -22,22 +23,22 @@
         </div>
         <?php
             $Pseudo = $_SESSION['username'];
-            $dbh = new PDO("mysql:host=localhost; dbname=site-perso; charset=utf8", "root", "");
             //Obtenir ID utilisateur pour infos
-            $stmt = $dbh->prepare("SELECT `ID` FROM `utilisateur` WHERE `username` = ?");
+            $stmt = $_SQL->prepare("SELECT `ID` FROM `utilisateur` WHERE `username` = ?");
             $stmt->execute(array($Pseudo));
             $stmt = $stmt->fetch();
             //ID de l'utilisateur
             $ID = $stmt['ID'];
+            console_log($Pseudo);
             $_SESSION['ID'] = $ID;
-            //ID	Nom	Rencontre	Version	ID_Utilisateur	Sexe Fini
-            $stmt = $dbh->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur` = ?");
-            $stmt->execute(array($ID));
 
+            //ID	Nom	Rencontre	Version	ID_Utilisateur	Sexe Fini
+            $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur` = ?");
+            $stmt->execute(array($ID));
             while($Shiny = $stmt->fetch())
             {
                 //Affiche une fiche pour chaque poké
-                AfficheInfoShiny($Shiny['Nom'], $Shiny['Rencontre'], $Shiny['Version'], $Shiny['Sexe'], $Shiny['Fini']);
+                AfficheInfoShiny($Shiny['Nom'], $Shiny['Rencontre'], $Shiny['Version'], $Shiny['Sexe'], $Shiny['Reset'], $Shiny['Fini']);
             }
 
             echo "Nouvelle Chasse : "

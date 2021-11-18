@@ -13,20 +13,29 @@
         <?php
         include '../../Menu/Menu.php'; // Hello Gros Chien //
         include 'Shiny.php';
+        include "../../Session/BDD.php"
 
         $ID = $_SESSION['ID'];
         $Poke = $_SESSION['Shasse'];
         
-        $stmt = $dbh->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur`= ? AND `Fini` is NULL AND `Nom`= ? ");
+        $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur`= ? AND `Fini` is NULL AND `Nom`= ? ");
         $stmt->execute(array($ID, $Poke));
         $Shiny = $stmt->fetch();
+
+
 
         echo $Shiny['nbrReset'];
         
         ?>
+
+        <button type="button" id="Reset" onclick=Reset()> +1 Reset </button>
+
+        <button type="button" id="Fin" onclick=Fin()> Shiny Capturé </button>
+
+        <button type="button" id="attaque" onclick=Pause()> Stoper la shasse (ce sera save) </button>
+
         <!-- Détecter quand on appuis sur un boutton -> ajout de 1 -->
         <!-- Boutton Retour -->
-        <button onclick=retour()> Stoper la shasse (ce sera save) </button>
 
     </body>
 </html>
