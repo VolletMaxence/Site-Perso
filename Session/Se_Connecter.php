@@ -12,6 +12,7 @@
     <body>
         <?php
             include '../Menu/Menu.php'; // Hello Gros Chien //
+            include "BDD.php";
 
             if($_SESSION && $_SESSION['Connect'] == true)
             {
@@ -43,11 +44,10 @@
                 <?php
                 //si session existe pas :
                 //connexion base : 
-                $dbh = new PDO("mysql:host=localhost; dbname=site-perso; charset=utf8", "root", "");
                 if (isset($_POST["submit"])) {
                     if((!empty($_POST['password'])) && (!empty($_POST['username']))){
                         //requete préparé
-                        $stmt = $dbh->prepare("SELECT * FROM utilisateur WHERE username = ? AND mdp = ?");
+                        $stmt = $_SQL->prepare("SELECT * FROM utilisateur WHERE username = ? AND mdp = ?");
                         $stmt->execute(array($_POST['username'], $_POST['password']));
                         $stmt = $stmt->fetch();
 
@@ -56,6 +56,7 @@
                             echo "Mauvais nom d'utilisateur ou mot de passe.";
                         } else {
                             $_SESSION['Connect']=true;
+                            $_SESSION['username']=$_POST['username'];
                             //Refresh la page pour pouvoir acceder au autres page.
                             echo "<script type='text/javascript'>document.location.replace('../Compte');</script>";
                         }
