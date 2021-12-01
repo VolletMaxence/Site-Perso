@@ -19,4 +19,5 @@ try {
 } catch(Exception $e) {
     echo "Erreur de connexion à la base de données";
 }
+
 ?>

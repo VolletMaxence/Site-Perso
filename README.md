@@ -1,10 +1,12 @@
 # Site-Perso
 
 - MINECRAFT
-  -Generateur Cercle / Sphere
+  -Generateur Cercle / Sphere (?)
+  
   
 - SHOWDOWN
-  Calcl coverage type pokemon
+  Calcul coverage type pokemon
+  Compteur Reset de Shiny
   
-- SKY ?
+- SKY
   Liste esprit pour les trouver ces enculés / Liste gamin pour faire le pédo
