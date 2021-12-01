@@ -7,10 +7,10 @@ $_DB = array(
     "password" => "Tallys2001",
     "db_name" => "xencev_site-perso"
 
-    "hostname" => "mysql-xencev.alwaysdata.net",
-    "username" => "xencev_root",
-    "password" => "Tallys2001",
-    "db_name" => "xencev_site-perso"
+    //"hostname" => "mysql-xencev.alwaysdata.net",
+    //"username" => "xencev_root",
+    //"password" => "Tallys2001",
+    //"db_name" => "xencev_site-perso"
 );
 
 // Create connexion to database

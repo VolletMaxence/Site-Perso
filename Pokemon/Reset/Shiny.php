@@ -32,18 +32,8 @@ function Retour()
     echo "<script type='text/javascript'>document.location.replace('../../Pokemon/Reset');</script>";
 }
 
-<<<<<<< HEAD
-function console_log( $data )
-{
-    echo '<script>';
-    echo 'console.log('. json_encode( $data ) .')';
-    echo '</script>';
-}
-?>
-=======
 function console_log( $data ){
     echo '<script>';
     echo 'console.log('. json_encode( $data ) .')';
     echo '</script>';
   }
->>>>>>> 69ed0e957b9c449d2e8172891fe7685e4a1d01dd
