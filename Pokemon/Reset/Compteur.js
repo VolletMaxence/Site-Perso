@@ -1,3 +1,12 @@
+function Shasser($ID)
+{
+    fetch("Redirection.php").then (res => 
+    {
+        //Redirection
+        document.location.replace('../../Pokemon/Reset/Shasse.php');
+    }).catch (err => console.error (err));
+}
+
 function plusUn()
 {
     fetch( "Compteur.php" ).then( res => {
