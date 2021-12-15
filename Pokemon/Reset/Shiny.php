@@ -20,31 +20,26 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
             $IDP = $IDPoke[$i]; 
             ?>
             <form onsubmit="return false">
-                <button name="button" type=submit class="btn btn-default" onclick="Shasser($IDP)"> Reprendre la chasse (bon courage) </button>
+                <button id="IDPoke" name="button" type=submit class="btn btn-default" onclick="Shasser('<?=$IDP?>')"> Reprendre la chasse (bon courage) </button>
             </form>
-
-            <?php
-            $_SESSION['Shasse'] = $Nom;
-            
+            <?php 
         }
+        if(isset($_POST['IDPoke']))
+        {
+            echo $IDPokemon;
+            console_log($IDPokemon);
         
+            $_SESSION['IDPoke'] = $IDPokemon;
+            console_log($_SESSION['IDPoke']);
+        }
     ?>
     </div>
     <?php
 }
 
-function Shasser($IDPokemon)
-{
-    echo $IDPokemon;
-    $_SESSION['IDPoke'] = $IDPokemon;
-    console_log($_SESSION['IDPoke']);
-    //Redirection
-    //echo "<script type='text/javascript'>document.location.replace('../../Pokemon/Reset/Shasse.php');</script>";
-}
-
 function Retour()
 {
-    echo "<script type='text/javascript'>document.location.replace('../../Pokemon/Reset');</script>";
+    //echo "<script type='text/javascript'>document.location.replace('../../Pokemon/Reset');</script>";
 }
 
 function console_log( $data ){
@@ -52,3 +47,76 @@ function console_log( $data ){
     echo 'console.log('. json_encode( $data ) .')';
     echo '</script>';
   }
+
+//send help
+function list2G()
+{
+    ?>
+        <select name="Jeu">
+            
+        </select>
+    <?php
+}
+
+function list3G()
+{
+    ?>
+    <select name="Jeu">
+
+    </select>
+    <?php
+}
+
+function list4G()
+{
+    ?>
+    <select name="Jeu">
+
+    </select>
+    <?php
+}
+
+function list5G()
+{
+    ?>
+    <select name="Jeu">
+
+    </select>
+    <?php
+}
+
+function list6G()
+{
+    ?>
+    <select name="Jeu">
+
+    </select>
+    <?php
+}
+
+function list7G()
+{
+    ?>
+    <select name="Jeu">
+
+    </select>
+    <?php
+}
+
+function listLetsGo()
+{
+    ?>
+    <select name="Jeu">
+
+    </select>
+    <?php
+}
+
+function list8G()
+{
+    ?>
+    <select name="Jeu">
+
+    </select>
+    <?php
+}

@@ -24,7 +24,7 @@ include "../../Session/BDD.php";
         $Poke = $_SESSION['IDPoke'];
         
         console_log($_SESSION['ID']);
-
+        console_log($_SESSION['IDPoke']);
 
         $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID`= ? AND `Fini` = 0 ");
         $stmt->execute(array($Poke));
