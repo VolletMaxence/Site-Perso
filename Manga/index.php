@@ -21,6 +21,8 @@
         { 
         ?>
             <!-- lien vers page "ma liste de série" -->
+            
+
         <?php
         } else 
         {

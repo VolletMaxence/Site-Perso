@@ -56,7 +56,7 @@
                             echo "Mauvais nom d'utilisateur ou mot de passe.";
                         } else {
                             $_SESSION['Connect']=true;
-                            $_SESSION['username']=$_POST['username'];
+                            $_SESSION['IDusername']=$_POST['ID'];
                             //Refresh la page pour pouvoir acceder au autres page.
                             echo "<script type='text/javascript'>document.location.replace('../Compte');</script>";
                         }

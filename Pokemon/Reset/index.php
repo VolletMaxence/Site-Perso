@@ -22,14 +22,7 @@
             Vos Shiny : 
         </div>
         <?php
-            $Pseudo = $_SESSION['username'];
-            //Obtenir ID utilisateur pour infos
-            $stmt = $_SQL->prepare("SELECT `ID` FROM `utilisateur` WHERE `username` = ?");
-            $stmt->execute(array($Pseudo));
-            $stmt = $stmt->fetch();
-            //ID de l'utilisateur
-            $ID = $stmt['ID'];
-            $_SESSION['ID'] = $ID;
+            $ID = $_SESSION['ID';
             console_log($ID);
 
             //ID	Nom	Rencontre	Version	ID_Utilisateur	Sexe Fini
