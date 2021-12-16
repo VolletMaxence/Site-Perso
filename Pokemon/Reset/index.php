@@ -14,6 +14,8 @@
             include '../../Menu/Menu.php'; // Hello Gros Chien //
             include 'Shiny.php';
             require "../../Session/BDD.php";
+
+            $i = 0;
         ?>
         <!-- Pouvoir reprendre une shasse en cour
         Appuiez sur un bouton = +1 au conteur
@@ -31,7 +33,8 @@
             while($Shiny = $stmt->fetch())
             {
                 //Affiche une fiche pour chaque poké
-                AfficheInfoShiny($Shiny['Nom'], $Shiny['Rencontre'], $Shiny['Version'], $Shiny['Sexe'], $Shiny['Reset'], $Shiny['Fini']);
+                AfficheInfoShiny($Shiny['Nom'], $Shiny['Rencontre'], $Shiny['Version'], $Shiny['Sexe'], $Shiny['Reset'], $Shiny['Fini'], $Shiny['ID'], $i);
+                $i++;
             }
 
             echo "Nouvelle Chasse : "
@@ -75,7 +78,7 @@
                     <option disabled> Génération 8
                     <option>Epée
                     <option>Bouclier
-                    <option>Diamant Etincellant
+                    <option>Diamant Étincelant
                     <option>Perle Scientillante
                 </select>
                 <!-- Choisir Pokémon -->
@@ -87,4 +90,5 @@
                 </select>
             </form>
     </body>
+    <script src="Compteur.js"></script>
 </html>

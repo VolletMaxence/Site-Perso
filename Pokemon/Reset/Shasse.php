@@ -20,18 +20,14 @@ include "../../Session/BDD.php";
     <body>
         <?php
 
-        include '../../Menu/Menu.php'; // Hello Gros Chien //
-        include 'Shiny.php';
-        include "../../Session/BDD.php";
-
         $ID = $_SESSION['ID'];
-        $Poke = $_SESSION['Shasse'];
+        $Poke = $_SESSION['IDPoke'];
         
         console_log($_SESSION['ID']);
+        console_log($_SESSION['IDPoke']);
 
-
-        $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur`= ? AND `Fini` is NULL AND `Nom`= ? AND `Fini` = 0 ");
-        $stmt->execute(array($ID, $Poke));
+        $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID`= ? AND `Fini` = 0 ");
+        $stmt->execute(array($Poke));
         $Shiny = $stmt->fetch();
 
         
@@ -39,7 +35,10 @@ include "../../Session/BDD.php";
         $nbrReset = 0;
         
         ?>
-        <div id="Nombre" classe="">
+        <div id="Nom" class="">
+            <?= $Shiny['Nom'];?>
+        </div>
+        <div id="Nombre" class="">
             <?= $nbrReset; ?>
         </div>
 
