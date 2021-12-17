@@ -17,20 +17,22 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
         } else 
         {
             //onclick : Redirection avec ID du poké stocké pour l'utiliser dans l autre page.
-            $IDP = $IDPoke[$i]; 
+            $IDP = $IDPoke;
+            console_log("IDPoke function Shiny.php : ".$IDPoke);
             ?>
-            <form onsubmit="return false">
-                <button id="IDPoke" name="button" type=submit class="btn btn-default" onclick="Shasser('<?=$IDP?>')"> Reprendre la chasse (bon courage) </button>
+            <form method="post">
+                <input id="IDPoke" name="IDPoke" type=submit class="btn btn-default" value="Reprendre la chasse (bon courage)">
             </form>
             <?php 
-        }
-        if(isset($_POST['IDPoke']))
-        {
-            echo $IDPokemon;
-            console_log($IDPokemon);
-        
-            $_SESSION['IDPoke'] = $IDPokemon;
-            console_log($_SESSION['IDPoke']);
+            if(isset($_POST['IDPoke']))
+            {
+                console_log('Appuis sur bouton : '.$IDPoke);
+
+                $_SESSION['IDPoke'] = $IDP;
+                ?>
+                <meta http-equiv="Refresh" content="10; URL=Shasse.php">
+                <?php
+            }
         }
     ?>
     </div>
@@ -46,7 +48,7 @@ function console_log( $data ){
     echo '<script>';
     echo 'console.log('. json_encode( $data ) .')';
     echo '</script>';
-  }
+}
 
 //send help
 function list2G()

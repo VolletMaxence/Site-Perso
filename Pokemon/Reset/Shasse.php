@@ -23,8 +23,8 @@ include "../../Session/BDD.php";
         $ID = $_SESSION['ID'];
         $Poke = $_SESSION['IDPoke'];
         
-        console_log($_SESSION['ID']);
-        console_log($_SESSION['IDPoke']);
+        console_log("ID Utilisateur : ".$_SESSION['ID']);
+        console_log("ID Poké : ".$Poke);
 
         $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID`= ? AND `Fini` = 0 ");
         $stmt->execute(array($Poke));

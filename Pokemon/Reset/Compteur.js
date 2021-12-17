@@ -1,9 +1,14 @@
 function Shasser($ID)
 {
-    fetch("Redirection.php").then (res => 
+    fetch("Redirection.php", {
+        method : "POST",
+        body: JSON.stringify({
+            ID: $ID
+        }),
+    }).then (res => 
     {
         //Redirection
-        document.location.replace('../../Pokemon/Reset/Shasse.php');
+        console.log("pute");
     }).catch (err => console.error (err));
 }
 

@@ -25,7 +25,9 @@
         </div>
         <?php
             $ID = $_SESSION['ID'];
-            console_log($ID);
+            console_log("ID : ".$ID);
+            $_SESSION['IDPoke'] = NULL;
+            console_log("IDPoke : ".$_SESSION['IDPoke']);
 
             //ID	Nom	Rencontre	Version	ID_Utilisateur	Sexe Fini
             $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID_Utilisateur` = ?");
