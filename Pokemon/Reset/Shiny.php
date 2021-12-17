@@ -21,16 +21,18 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
             console_log("IDPoke function Shiny.php : ".$IDPoke);
             ?>
             <form method="post">
-                <input id="IDPoke" name="IDPoke" type=submit class="btn btn-default" value="Reprendre la chasse (bon courage)">
+                <!-- value censer s'envoyer au serveur mais pas afficher sur page -->
+                <input type="hidden" name="random" value="<?= $i ?>">
+                <input name="IDPoke" type=submit class="btn btn-default" value="Reprendre la chasse (bon courage)">
             </form>
             <?php 
             if(isset($_POST['IDPoke']))
             {
                 console_log('Appuis sur bouton : '.$IDPoke);
-
+                console_log($_POST['random']);
                 $_SESSION['IDPoke'] = $IDP;
                 ?>
-                <meta http-equiv="Refresh" content="10; URL=Shasse.php">
+                <meta http-equiv="Refresh" content="URL=Shasse.php">
                 <?php
             }
         }
