@@ -1,5 +1,5 @@
 <?php
-function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDPoke, $i)
+function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDPoke, $i, $Lien)
 {
     //Créer une fiche pour montrer le poké
     ?>
@@ -14,8 +14,15 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
         {
             echo $Sexe;
             echo $Rencontre;
+            ?>
+                <img class="" src= <?= $Lien ?> alt="Image de votre Shiny">
+            <?php
         } else 
         {
+            ?>
+                <img class="" src= <?= $Lien ?> alt="Image de votre Shiny">
+            <?php
+            
             //onclick : Redirection avec ID du poké stocké pour l'utiliser dans l autre page.
             $IDP = $IDPoke;
             console_log("IDPoke function Shiny.php : ".$IDPoke);

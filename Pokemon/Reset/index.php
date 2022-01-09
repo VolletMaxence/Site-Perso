@@ -35,7 +35,7 @@
             while($Shiny = $stmt->fetch())
             {
                 //Affiche une fiche pour chaque poké
-                AfficheInfoShiny($Shiny['Nom'], $Shiny['Rencontre'], $Shiny['Version'], $Shiny['Sexe'], $Shiny['Reset'], $Shiny['Fini'], $Shiny['ID'], $i);
+                AfficheInfoShiny($Shiny['Nom'], $Shiny['Rencontre'], $Shiny['Version'], $Shiny['Sexe'], $Shiny['Reset'], $Shiny['Fini'], $Shiny['ID'], $i, $Shiny['Lien_Image']);
                 $i++;
             }
 
