@@ -30,14 +30,18 @@ include "../../Session/BDD.php";
         $stmt->execute(array($Poke));
         $Shiny = $stmt->fetch();
 
-        
+        //Récuperer le nombre de reset
         $nbrReset = $Shiny['Reset'];
-        $nbrReset = 0;
+        
+        console_log("Lien GIF / PNG : ".$Shiny['Lien_Image']);
+        //$Image = "../../Dossier_Shiny/ani-shiny/".$Shiny['Nom'].".gif";
+
         
         ?>
-        <div id="Nom" class="">
-            <?= $Shiny['Nom'];?>
+        <div id="Image" class="">
+            <img class="" src= <?= $Shiny['Lien_Image'] ?> alt="Image de votre Shiny">
         </div>
+
         <div id="Nombre" class="">
             <?= $nbrReset; ?>
         </div>

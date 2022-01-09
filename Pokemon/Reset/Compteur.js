@@ -24,5 +24,4 @@ function plusUn()
         document.getElementById( "Nombre" ).innerHTML = currentValue;
 
     }).catch( err => console.error( err ) );
-
 }
