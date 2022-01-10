@@ -39,9 +39,15 @@ include "../../Session/BDD.php";
         
         ?>
         <div id="Image" class="">
-            <img class="" src= <?= $Shiny['Lien_Image'] ?> alt="Image de votre Shiny">
+            <img id="sprite" class="" src= <?= $Shiny['Lien_Image'] ?> alt="Image de votre Shiny">
         </div>
-
+        <script>
+            var Sprite = document.getElementById("sprite");
+            var SpriteWidth = Sprite.clientWidth;
+            var SpriteHeight = Sprite.clientHeight;
+            Sprite.style.width = (SpriteWidth * 2.5) + "px";
+            Sprite.style.height = (SpriteHeight * 2.5) + "px";
+        </script>
         <div id="Nombre" class="">
             <?= $nbrReset; ?>
         </div>
