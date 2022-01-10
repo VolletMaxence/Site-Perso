@@ -24,7 +24,7 @@
             Vos Shiny : 
         </div>
         <?php
-            $ID = $_SESSION['ID'];
+            $ID = $_SESSION['IDusername'];
             console_log("ID : ".$ID);
             $_SESSION['IDPoke'] = NULL;
             console_log("IDPoke : ".$_SESSION['IDPoke']);
