@@ -15,7 +15,7 @@
             include 'Shiny.php';
             require "../../Session/BDD.php";
 
-            $i = 0;
+            $i = 1;
         ?>
         <!-- Pouvoir reprendre une shasse en cour
         Appuiez sur un bouton = +1 au conteur
@@ -87,35 +87,43 @@
             
             </form>
             <script type='text/javascript'>
-                var Jeu = document.getElementById('Jeu').value;
-                if(Jeu === 'Or' || Jeu === 'Argent' || Jeu === 'Cristal')
+                document.getElementById('Jeu').onchange = function() 
                 {
-                    var Image = "../../Dossier_Shiny/Gen2-shiny/";
-                }else if (Jeu === 'Rubis' || Jeu === 'Saphir' || Jeu === 'Emeraude' || Jeu === 'Rouge Feu' || Jeu === 'Vert Feuille')
-                {
-                    var Image = "../../Dossier_Shiny/Gen3-shiny/";
-                }else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'Soulsilver' )
-                {
-                    var Image = "../../Dossier_Shiny/Gen4-shiny/";
-                }else if (Jeu === 'Noir' || Jeu === 'Blanc' || Jeu === 'Noir 2' || Jeu === 'Blanc 2')
-                {
-                    var Image = "../../Dossier_Shiny/Gen5ani-shiny/";
-                }else if (Jeu === 'X' || Jeu === 'Y' || Jeu === 'Rubis Oméga' || Jeu === 'Saphir Alpha')
-                {
-                    var Image = "../../Dossier_Shiny/ani-shiny/";
-                }else if (Jeu ==='Soleil' || Jeu === 'Lune' || Jeu === 'Ultra-Soleil' || Jeu === 'Ultra-Lune' )
-                {
-                    var Image = "../../Dossier_Shiny/ani-shiny/";
-                }else if (Jeu === "Let's Go Pikachu" || Jeu === "Let's Go Evoli")
-                {
-                    var Image = "../../Dossier_Shiny/ani-shiny/";
-                }else if (Jeu === 'Epée' || Jeu === 'Bouclier')
-                {
-                    var Image = "../../Dossier_Shiny/ani-shiny/";
-                }else if (Jeu === 'Diamant Etincelant' || Jeu === 'Perle Scientillante')
-                {
-                    var Image = "../../Dossier_Shiny/ani-shiny/";
+                    var index = this.selectedIndex;
+                    var Jeu = this.children[index].innerHTML.trim();
+
+                    console.log(Jeu);
+                    if(Jeu === 'Or' || Jeu === 'Argent' || Jeu === 'Cristal')
+                    {
+                        var Image = "../../Dossier_Shiny/Gen2-shiny/";
+                    }else if (Jeu === 'Rubis' || Jeu === 'Saphir' || Jeu === 'Emeraude' || Jeu === 'Rouge Feu' || Jeu === 'Vert Feuille')
+                    {
+                        var Image = "../../Dossier_Shiny/Gen3-shiny/";
+                    }else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'Soulsilver' )
+                    {
+                        var Image = "../../Dossier_Shiny/Gen4-shiny/";
+                    }else if (Jeu === 'Noir' || Jeu === 'Blanc' || Jeu === 'Noir 2' || Jeu === 'Blanc 2')
+                    {
+                        var Image = "../../Dossier_Shiny/Gen5ani-shiny/";
+                    }else if (Jeu === 'X' || Jeu === 'Y' || Jeu === 'Rubis Oméga' || Jeu === 'Saphir Alpha')
+                    {
+                        var Image = "../../Dossier_Shiny/ani-shiny/";
+                    }else if (Jeu ==='Soleil' || Jeu === 'Lune' || Jeu === 'Ultra-Soleil' || Jeu === 'Ultra-Lune' )
+                    {
+                        var Image = "../../Dossier_Shiny/ani-shiny/";
+                    }else if (Jeu === "Let's Go Pikachu" || Jeu === "Let's Go Evoli")
+                    {
+                        var Image = "../../Dossier_Shiny/ani-shiny/";
+                    }else if (Jeu === 'Epée' || Jeu === 'Bouclier')
+                    {
+                        var Image = "../../Dossier_Shiny/ani-shiny/";
+                    }else if (Jeu === 'Diamant Etincelant' || Jeu === 'Perle Scientillante')
+                    {
+                        var Image = "../../Dossier_Shiny/ani-shiny/";
+                    }
                 }
+
+                
             </script>
             <!-- Créer les formulaire des listes de poké -->
     </body>

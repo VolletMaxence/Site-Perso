@@ -6,14 +6,13 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
     <div class="">
         <img class="fit-picture" src="">
         <?php
-        echo $Version;
-        echo $Nom;
-        $IDPoke[$i] = $IDPoke;
+        echo $Version."\n";
+        echo $Nom."\n";
 
         if($Fini == 1)
         {
-            echo $Sexe;
-            echo $Rencontre;
+            echo $Sexe."\n";
+            echo $Rencontre."\n";
             ?>
                 <img class="" src= <?= $Lien ?> alt="Image de votre Shiny">
             <?php
@@ -25,7 +24,7 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
             
             //onclick : Redirection avec ID du poké stocké pour l'utiliser dans l autre page.
             $IDP = $IDPoke;
-            console_log("IDPoke function Shiny.php : ".$IDPoke);
+            console_log("IDPoke function Shiny.php : ".$IDPoke." pour ".$Nom);
             ?>
             <form method="post" id="">
                 <!-- value censer s'envoyer au serveur mais pas afficher sur page -->
@@ -66,7 +65,7 @@ function list2G()
 {
     ?>
         <select name="Jeu">
-            <option value="bulbasaur"> "Bulbizarre </option>
+            <option value="bulbasaur"> Bulbizarre </option>
             <option value="ivysaur"> Herbizarre </option>
             <option value="venusaur"> Florizarre </option>
             <option value="charmander"> Salamèche </option>
