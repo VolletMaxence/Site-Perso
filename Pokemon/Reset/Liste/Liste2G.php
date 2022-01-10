@@ -649,9 +649,9 @@
             </select>
         </form>
 
-        <form id="Liste4G" style="visibility: hidden">>
+        <form id="Liste4G" style="visibility: hidden">
             <select>
-                <option value="bulbasaur"> "Bulbizarre </option>
+                <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
                 <option value="charmander"> Salamèche </option>
@@ -1151,7 +1151,7 @@
 
         <form id="Liste5G" style="visibility: hidden">
             <select>
-                <option value="bulbasaur"> "Bulbizarre </option>
+                <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
                 <option value="charmander"> Salamèche </option>
@@ -1807,7 +1807,7 @@
 
         <form id="Liste6G" style="visibility: hidden">
             <select>
-                <option value="bulbasaur"> "Bulbizarre </option>
+                <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
                 <option value="charmander"> Salamèche </option>
@@ -2535,7 +2535,7 @@
 
         <form id="Liste7G" style="visibility: hidden">
             <select>
-                <option value="bulbasaur"> "Bulbizarre </option>
+                <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
                 <option value="charmander"> Salamèche </option>
@@ -3344,7 +3344,7 @@
 
         <form id="Liste7_2G" style="visibility: hidden">
             <select>
-                <option value="bulbasaur"> "Bulbizarre </option>
+                <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
                 <option value="charmander"> Salamèche </option>
@@ -4157,7 +4157,7 @@
 
         <form id="ListeLetsGo" style="visibility: hidden">
             <select>
-                <option value="bulbasaur"> "Bulbizarre </option>
+                <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
                 <option value="charmander"> Salamèche </option>

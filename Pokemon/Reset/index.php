@@ -99,56 +99,135 @@
                     if(Jeu === 'Or' || Jeu === 'Argent' || Jeu === 'Cristal')
                     {
                         var Image = "../../Dossier_Shiny/Gen2-shiny/";
-                        document.getElementById(Liste2G).style.visibility = "visible";
+                        document.getElementById('Liste2G').style.visibility = "visible";
 
-                        document.getElementById(Liste3G).style.visibility = "hidden";
-                        document.getElementById(Liste4G).style.visibility = "hidden";
-                        document.getElementById(Liste5G).style.visibility = "hidden";
-                        document.getElementById(Liste6G).style.visibility = "hidden";
-                        document.getElementById(Liste7G).style.visibility = "hidden";
-                        document.getElementById(Liste7_2G).style.visibility = "hidden";
-                        document.getElementById(ListeLetsGo).style.visibility = "hidden";
-                        document.getElementById(Liste8G).style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
 
                     }else if (Jeu === 'Rubis' || Jeu === 'Saphir' || Jeu === 'Emeraude' || Jeu === 'Rouge Feu' || Jeu === 'Vert Feuille')
                     {
                         var Image = "../../Dossier_Shiny/Gen3-shiny/";
+                        document.getElementById('Liste3G').style.visibility = "visible";
 
-                        document.getElementById(Liste3G).style.visibility = "visible";
-
-                        document.getElementById(Liste2G).style.visibility = "hidden";
-                        document.getElementById(Liste4G).style.visibility = "hidden";
-                        document.getElementById(Liste5G).style.visibility = "hidden";
-                        document.getElementById(Liste6G).style.visibility = "hidden";
-                        document.getElementById(Liste7G).style.visibility = "hidden";
-                        document.getElementById(Liste7_2G).style.visibility = "hidden";
-                        document.getElementById(ListeLetsGo).style.visibility = "hidden";
-                        document.getElementById(Liste8G).style.visibility = "hidden";
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
 
                     }else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'Soulsilver' )
                     {
                         var Image = "../../Dossier_Shiny/Gen4-shiny/";
+                        document.getElementById('Liste4G').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
                     }else if (Jeu === 'Noir' || Jeu === 'Blanc' || Jeu === 'Noir 2' || Jeu === 'Blanc 2')
                     {
                         var Image = "../../Dossier_Shiny/Gen5ani-shiny/";
+                        document.getElementById('Liste5G').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
                     }else if (Jeu === 'X' || Jeu === 'Y' || Jeu === 'Rubis Oméga' || Jeu === 'Saphir Alpha')
                     {
                         var Image = "../../Dossier_Shiny/ani-shiny/";
+                        document.getElementById('Liste6G').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
                     }else if (Jeu ==='Soleil' || Jeu === 'Lune')
                     {
                         var Image = "../../Dossier_Shiny/ani-shiny/";
+                        document.getElementById('Liste7G').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
                     }else if (Jeu === 'Ultra-Soleil' || Jeu === 'Ultra-Lune')
                     {
                         var Image = "../../Dossier_Shiny/ani-shiny/";
+                        document.getElementById('Liste7_2G').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
                     }else if (Jeu === "Let's Go Pikachu" || Jeu === "Let's Go Evoli")
                     {
                         var Image = "../../Dossier_Shiny/ani-shiny/";
+                        document.getElementById('ListeLetsGo').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
                     }else if (Jeu === 'Epée' || Jeu === 'Bouclier')
                     {
                         var Image = "../../Dossier_Shiny/ani-shiny/";
+                        document.getElementById('Liste8G').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste4G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
                     }else if (Jeu === 'Diamant Etincelant' || Jeu === 'Perle Scientillante')
                     {
                         var Image = "../../Dossier_Shiny/ani-shiny/";
+                        document.getElementById('Liste4G').style.visibility = "visible";
+
+                        document.getElementById('Liste2G').style.visibility = "hidden";
+                        document.getElementById('Liste3G').style.visibility = "hidden";
+                        document.getElementById('Liste5G').style.visibility = "hidden";
+                        document.getElementById('Liste6G').style.visibility = "hidden";
+                        document.getElementById('Liste7G').style.visibility = "hidden";
+                        document.getElementById('Liste7_2G').style.visibility = "hidden";
+                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
+                        document.getElementById('Liste8G').style.visibility = "hidden";
                     }
                 }
             </script>
