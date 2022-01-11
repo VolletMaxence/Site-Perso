@@ -14,7 +14,7 @@ function Shasser($ID)
 
 function plusUn()
 {
-    fetch( "Compteur.php" ).then( res => {
+    fetch( "Fonction/Compteur.php" ).then( res => {
 
         let currentValue = document.getElementById( "Nombre" ).innerHTML;
 

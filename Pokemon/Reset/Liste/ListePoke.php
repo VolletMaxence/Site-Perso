@@ -2,8 +2,8 @@
     function Liste()
     {
         ?>
-        <form id="Liste2G" class="position-absolute" style="visibility: hidden;">
-            <select>
+        
+            <select id="Liste2G"  name="Liste2G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -256,10 +256,10 @@
                 <option value="hooh"> Ho-Oh </option>
                 <option value="celebi"> Celebi </option>
             </select>
-        </form>
+        
 
-        <form id="Liste3G" class="position-absolute" style="visibility: hidden;">
-            <select>
+        
+            <select id="Liste3G"  name="Liste3G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -647,10 +647,9 @@
                 <option value="jirachi"> Jirachi </option>
                 <option value="deoxys"> Deoxys </option>
             </select>
-        </form>
+        
 
-        <form id="Liste4G" class="position-absolute" style="visibility: hidden;">
-            <select>
+            <select id="Liste4G"  name="Liste4G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -1147,10 +1146,9 @@
                 <option value="shaymin"> Shaymin </option>
                 <option value="arceus"> Arceus </option>
             </select>
-        </form>
+        
 
-        <form id="Liste5G" class="position-absolute" style="visibility: hidden;">
-            <select>
+            <select id="Liste5G"  name="Liste5G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -1803,10 +1801,9 @@
                 <option value="meloetta"> Meloetta </option>
                 <option value="genesect"> Genesect </option>
             </select>
-        </form>
+        
 
-        <form id="Liste6G" class="position-absolute" style="visibility: hidden;">
-            <select>
+            <select id="Liste6G"  name="Liste6G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -2531,10 +2528,9 @@
                 <option value="hoopa"> Hoopa </option>
                 <option value="volcanion"> Volcanion </option>
             </select>
-        </form>
+        
 
-        <form id="Liste7G" class="position-absolute" style="visibility: hidden;">
-            <select>
+            <select id="Liste7G"  name="Liste7G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -3340,10 +3336,9 @@
                 <option value="magearna"> Magearna </option>
                 <option value="marshadow"> Marshadow </option>
             </select>
-        </form>
+        
 
-        <form id="Liste7_2G" class="position-absolute" style="visibility: hidden;">
-            <select>
+            <select id="Liste7_2G"  name="Liste7_2G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -4153,10 +4148,9 @@
                 <option value="stakataka"> Ama-ama </option>
                 <option value="blacephalon"> Pierroteknik </option>
             </select>
-        </form>
+        
 
-        <form id="ListeLetsGo" class="position-absolute" style="visibility: hidden;">
-            <select>
+            <select id="ListeLetsGo"  name="ListeLetsGo" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
@@ -4311,13 +4305,12 @@
                 <option value="meltan"> Meltan </option>
                 <option value="melmetal"> Melmetal </option>
             </select>
-        </form>
+        
 
-        <form id="Liste8G" class="position-absolute" style="visibility: hidden;">
-            <select>
+            <select id="Liste8G" name="Liste8G" class="position-absolute" style="visibility: hidden;">
 
             </select>
-        </form>
+        
     <?php
     }
 

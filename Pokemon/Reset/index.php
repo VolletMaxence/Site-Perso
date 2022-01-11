@@ -43,8 +43,8 @@
 
             echo "Nouvelle Chasse : "
             ?>
-            <form>
-                <select id="Jeu">
+            <form method="POST">
+                <select id="Jeu"  name="Jeu">
                     <option>Choisir le jeu :
                     <option disabled> Génération 2
                     <option value="Or">Or
@@ -86,24 +86,123 @@
                     <option value="Perle Scientillante">Perle Scientillante
                 </select>
                 <!-- Choisir Pokémon -->
-            </form>
-            <?php
-                Liste();
-                //
+            
+                <?php
+                    Liste();
                 ?>
                 <p classe="position-relative">ㅤ</p>
                 <?php
-                ListeMethode();
+                    ListeMethode();
                 ?>
-            <p classe="position-relative">ㅤ</p>
-            <input type="submit" classe="position-relative" id="submit" name='submit' value='Lancer la nouvel chasse' style="visibility: hidden;">
-
+                <p classe="position-relative">ㅤ</p>
+                <button type="submit" classe="position-relative" id="submit" name='submit' style="visibility: hidden;"> Lancer la nouvelle chasse </button>
+            </form>
             <?php
-            if (isset($_POST["submit"])) {
-                $Jeu = $_POST['Jeu'];
-                console_log($_POST['Jeu']);
+            if(isset($_POST["submit"]))
+            {
+                $JeuShasse = $_POST['Jeu'];
+                if(isset($JeuShasse))
+                {
+                    if($JeuShasse == 'Or' || $JeuShasse == 'Argent' || $JeuShasse == 'Cristal')
+                    {
+                        $PokeShasse = $_POST['Liste2G'];
+                        $MethodeShasse = $_POST['ListeMethode2-3G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/gen2-shiny/".$PokeShasse.".png";
 
+                    } else if ($JeuShasse == 'Rubis' || $JeuShasse == 'Saphir' || $JeuShasse == 'Emeraude' || $JeuShasse == 'Rouge Feu' || $JeuShasse == 'Vert Feuille')
+                    {
+                        $PokeShasse = $_POST['Liste2G'];
+                        $MethodeShasse = $_POST['ListeMethode2-3G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/gen2-shiny/".$PokeShasse.".png";
+
+                    } else if ($JeuShasse == 'Diamant' || $JeuShasse == 'Perle' || $JeuShasse == 'Platine' || $JeuShasse == 'Hearthgold' || $JeuShasse == 'SoulSilver')
+                    {
+                        $PokeShasse = $_POST['Liste4G'];
+                        $MethodeShasse = $_POST['ListeMethode4G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/gen4-shiny/".$PokeShasse.".png";
+
+                    } else if ($JeuShasse == "Noir" || $JeuShasse == 'Blanc' || $JeuShasse =="Noir 2" || $JeuShasse =="Blanc 2")
+                    {
+                        $PokeShasse = $_POST['Liste5G'];
+                        $MethodeShasse = $_POST['ListeMethode5G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/gen5ani-shiny/".$PokeShasse.".gif";
+
+                    }else if ($JeuShasse == "X" || $JeuShasse == "Y" || $JeuShasse == "Rubis Omega" || $JeuShasse =="Saphir Alpha")
+                    {
+                        $PokeShasse = $_POST['Liste6G'];
+                        $MethodeShasse = $_POST['ListeMethode6G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/ani-shiny/".$PokeShasse.".gif";
+
+                    } else if ($JeuShasse == "Soleil" || $JeuShasse == "Lune")
+                    {
+                        $PokeShasse = $_POST['Liste7G'];
+                        $MethodeShasse = $_POST['ListeMethode7G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/ani-shiny/".$PokeShasse.".gif";
+
+                    } else if ($JeuShasse == "Ultra-Soleil" || $JeuShasse == "Ultra-Lune")
+                    {
+                        $PokeShasse = $_POST['Liste7_2G'];
+                        $MethodeShasse = $_POST['ListeMethode7_2G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/ani-shiny/".$PokeShasse.".gif";
+
+                    }else if ($JeuShasse == "Let's Go Pikachu" || $JeuShasse == "Let's Go Evoli")
+                    {
+                        $PokeShasse = $_POST['ListeLetsGo'];
+                        $MethodeShasse = $_POST['ListeMethodeLetsGo'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/ani-shiny/".$PokeShasse.".gif";
+
+                    }else if ($JeuShasse == 'Epée' || $JeuShasse == 'Bouclier')
+                    {
+                        $PokeShasse = $_POST['Liste8G'];
+                        $MethodeShasse = $_POST['ListeMethode8G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/ani-shiny/".$PokeShasse.".gif";
+                    } else if ($JeuShasse == 'Diamant Etincelant' || $JeuShasse == 'Perle Scientillante')
+                    {
+                        $PokeShasse = $_POST['Liste4G'];
+                        $MethodeShasse = $_POST['ListeMethode4G'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/ani-shiny/".$PokeShasse.".gif";
+                    }
+                    $req = "INSERT INTO `shiny`(`Nom`, `Rencontre`, `Version`, `ID_Utilisateur`, `Lien_Image`) VALUES (?,?,?,?,?)";
+                    $stmt = $_SQL->prepare($req);
+                    $stmt->execute(array($PokeShasse, $MethodeShasse, $JeuShasse, $ID, $LienImage));
+
+                    //Refresh la page pour afficher le shiny
+                } else 
+                {
+                    console_log("TG");
+                }
             }
+            
             ?>
             <script type='text/javascript'>
                 document.getElementById('Jeu').onchange = function() 
@@ -114,233 +213,50 @@
                     console.log(Jeu);
                     if(Jeu === 'Or' || Jeu === 'Argent' || Jeu === 'Cristal')
                     {
+                        DeuxG()
                         var Image = "../../Dossier_Shiny/Gen2-shiny/";
-                        document.getElementById('Liste2G').style.visibility = "visible";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
                     }else if (Jeu === 'Rubis' || Jeu === 'Saphir' || Jeu === 'Emeraude' || Jeu === 'Rouge Feu' || Jeu === 'Vert Feuille')
                     {
+                        TroisG()
                         var Image = "../../Dossier_Shiny/Gen3-shiny/";
-                        document.getElementById('Liste3G').style.visibility = "visible";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
-
                     }else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'Soulsilver' )
                     {
+                        QuatreG()
                         var Image = "../../Dossier_Shiny/Gen4-shiny/";
-                        document.getElementById('Liste4G').style.visibility = "visible";
-                        document.getElementById('ListeMethode4G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
-
                     }else if (Jeu === 'Noir' || Jeu === 'Blanc' || Jeu === 'Noir 2' || Jeu === 'Blanc 2')
                     {
+                        CinqG()
                         var Image = "../../Dossier_Shiny/Gen5ani-shiny/";
-                        document.getElementById('Liste5G').style.visibility = "visible";
-                        document.getElementById('ListeMethode5G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
-
                     }else if (Jeu === 'X' || Jeu === 'Y' || Jeu === 'Rubis Oméga' || Jeu === 'Saphir Alpha')
                     {
+                        SixG()
                         var Image = "../../Dossier_Shiny/ani-shiny/";
-                        document.getElementById('Liste6G').style.visibility = "visible";
-                        document.getElementById('ListeMethode6G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
-
                     }else if (Jeu ==='Soleil' || Jeu === 'Lune')
                     {
+                        SeptG()
                         var Image = "../../Dossier_Shiny/ani-shiny/";
-                        document.getElementById('Liste7G').style.visibility = "visible";
-                        document.getElementById('ListeMethode7G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
-
                     }else if (Jeu === 'Ultra-Soleil' || Jeu === 'Ultra-Lune')
                     {
+                        Sept_DeuxG()
                         var Image = "../../Dossier_Shiny/ani-shiny/";
-                        document.getElementById('Liste7_2G').style.visibility = "visible";
-                        document.getElementById('ListeMethode7G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
 
                     }else if (Jeu === "Let's Go Pikachu" || Jeu === "Let's Go Evoli")
                     {
+                        LetsGo()
                         var Image = "../../Dossier_Shiny/ani-shiny/";
-                        document.getElementById('ListeLetsGo').style.visibility = "visible";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
                     }else if (Jeu === 'Epée' || Jeu === 'Bouclier')
                     {
+                        HuitG()
                         var Image = "../../Dossier_Shiny/ani-shiny/";
-                        document.getElementById('Liste8G').style.visibility = "visible";
-                        document.getElementById('ListeMethode8G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste4G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode4G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-
                     }else if (Jeu === 'Diamant Etincelant' || Jeu === 'Perle Scientillante')
                     {
+                        RemakeQuatreG()
                         var Image = "../../Dossier_Shiny/ani-shiny/";
-                        document.getElementById('Liste4G').style.visibility = "visible";
-                        document.getElementById('ListeMethode4G').style.visibility = "visible";
-                        document.getElementById('submit').style.visibility = "visible";
-
-                        document.getElementById('Liste2G').style.visibility = "hidden";
-                        document.getElementById('Liste3G').style.visibility = "hidden";
-                        document.getElementById('Liste5G').style.visibility = "hidden";
-                        document.getElementById('Liste6G').style.visibility = "hidden";
-                        document.getElementById('Liste7G').style.visibility = "hidden";
-                        document.getElementById('Liste7_2G').style.visibility = "hidden";
-                        document.getElementById('ListeLetsGo').style.visibility = "hidden";
-                        document.getElementById('Liste8G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode2-3G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode5G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode6G').style.visibility = "hidden";
-                        document.getElementById('ListeMethode7G').style.visibility = "hidden";
-                        document.getElementById('ListeMethodeLestGo').style.visibility = "hidden";
-                        document.getElementById('ListeMethode8G').style.visibility = "hidden";
-
                     }
                 }
             </script>
             <!-- Créer les formulaire des listes de poké -->
     </body>
     <script src="Compteur.js"></script>
+    <script src="AfficheForm.js"></script>
 </html>
