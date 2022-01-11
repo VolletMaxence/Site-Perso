@@ -2,14 +2,14 @@
 function ListeMethode()
 {
     ?>
-    <form id="Liste2-3G" style="visibility: hidden">
+    <form id="ListeMethode2-3G" class="position-absolute" style="visibility: hidden;">
         <select>
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
         </select>
     </form>
 
-    <form id="Liste4G" style="visibility: hidden">
+    <form id="ListeMethode4G" class="position-absolute" style="visibility: hidden;">
         <select>
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
@@ -18,7 +18,7 @@ function ListeMethode()
         </select>
     </form>
 
-    <form id="Liste5G" style="visibility: hidden">
+    <form id="ListeMethode5G" class="position-absolute" style="visibility: hidden;">
         <select>
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
@@ -26,7 +26,7 @@ function ListeMethode()
         </select>
     </form>
 
-    <form id="ListeMethode6G" style="visibility: hidden">
+    <form id="ListeMethode6G" class="position-absolute" style="visibility: hidden;">
         <select>
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
@@ -39,7 +39,7 @@ function ListeMethode()
         </select>
     </form>
 
-    <form id="ListeMethode7G" style="visibility: hidden">
+    <form id="ListeMethode7G" class="position-absolute" style="visibility: hidden;">
         <select>
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
@@ -48,7 +48,7 @@ function ListeMethode()
         </select>
     </form>
 
-    <form id="ListeMethodeLestGo" style="visibility: hidden">
+    <form id="ListeMethodeLestGo" class="position-absolute" style="visibility: hidden;">
         <select>
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
@@ -57,7 +57,7 @@ function ListeMethode()
         </select>
     </form>
 
-    <form id="ListeMethode8G" style="visibility: hidden">
+    <form id="ListeMethode8G" class="position-absolute" style="visibility: hidden;">
         <select>
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
