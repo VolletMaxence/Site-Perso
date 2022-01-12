@@ -61,7 +61,7 @@
                     <option value="Perle">Perle
                     <option value="Platine">Platine
                     <option value="Hearthgold">Hearthgold
-                    <option value="SoulSilvre">SoulSilver
+                    <option value="SoulSilver">SoulSilver
                     <option disabled> Génération 5
                     <option value="Noir">Noir
                     <option value="Blanc">Blanc
@@ -198,6 +198,7 @@
                     $stmt->execute(array($PokeShasse, $MethodeShasse, $JeuShasse, $ID, $LienImage));
 
                     //Refresh la page pour afficher le shiny
+                    echo("<meta http-equiv='refresh' content='0'>");
                 } else 
                 {
                     console_log("TG");
@@ -220,7 +221,7 @@
                     {
                         TroisG()
                         var Image = "../../Dossier_Shiny/Gen3-shiny/";
-                    }else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'Soulsilver' )
+                    }else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'SoulSilver' )
                     {
                         QuatreG()
                         var Image = "../../Dossier_Shiny/Gen4-shiny/";

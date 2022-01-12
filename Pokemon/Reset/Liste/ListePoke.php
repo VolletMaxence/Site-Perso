@@ -163,7 +163,7 @@
                 <option value="typhlosion"> Typhlosion </option>
                 <option value="totodile"> Kaiminus </option>
                 <option value="croconow"> Crocrodil </option>
-                <option value="feraligator"> Aligatueur </option>
+                <option value="feraligatr"> Aligatueur </option>
                 <option value="sentret"> Fouinette </option>
                 <option value="furret"> Fouinar </option>
                 <option value="hoothoot"> Hoothoot </option>
@@ -419,7 +419,7 @@
                 <option value="typhlosion"> Typhlosion </option>
                 <option value="totodile"> Kaiminus </option>
                 <option value="croconow"> Crocrodil </option>
-                <option value="feraligator"> Aligatueur </option>
+                <option value="feraligatr"> Aligatueur </option>
                 <option value="sentret"> Fouinette </option>
                 <option value="furret"> Fouinar </option>
                 <option value="hoothoot"> Hoothoot </option>
@@ -809,7 +809,7 @@
                 <option value="typhlosion"> Typhlosion </option>
                 <option value="totodile"> Kaiminus </option>
                 <option value="croconow"> Crocrodil </option>
-                <option value="feraligator"> Aligatueur </option>
+                <option value="feraligatr"> Aligatueur </option>
                 <option value="sentret"> Fouinette </option>
                 <option value="furret"> Fouinar </option>
                 <option value="hoothoot"> Hoothoot </option>
@@ -1308,7 +1308,7 @@
                 <option value="typhlosion"> Typhlosion </option>
                 <option value="totodile"> Kaiminus </option>
                 <option value="croconow"> Crocrodil </option>
-                <option value="feraligator"> Aligatueur </option>
+                <option value="feraligatr"> Aligatueur </option>
                 <option value="sentret"> Fouinette </option>
                 <option value="furret"> Fouinar </option>
                 <option value="hoothoot"> Hoothoot </option>
@@ -1963,7 +1963,7 @@
                 <option value="typhlosion"> Typhlosion </option>
                 <option value="totodile"> Kaiminus </option>
                 <option value="croconow"> Crocrodil </option>
-                <option value="feraligator"> Aligatueur </option>
+                <option value="feraligatr"> Aligatueur </option>
                 <option value="sentret"> Fouinette </option>
                 <option value="furret"> Fouinar </option>
                 <option value="hoothoot"> Hoothoot </option>
@@ -2690,7 +2690,7 @@
                 <option value="typhlosion"> Typhlosion </option>
                 <option value="totodile"> Kaiminus </option>
                 <option value="croconow"> Crocrodil </option>
-                <option value="feraligator"> Aligatueur </option>
+                <option value="feraligatr"> Aligatueur </option>
                 <option value="sentret"> Fouinette </option>
                 <option value="furret"> Fouinar </option>
                 <option value="hoothoot"> Hoothoot </option>
@@ -3498,7 +3498,7 @@
                 <option value="typhlosion"> Typhlosion </option>
                 <option value="totodile"> Kaiminus </option>
                 <option value="croconow"> Crocrodil </option>
-                <option value="feraligator"> Aligatueur </option>
+                <option value="feraligatr"> Aligatueur </option>
                 <option value="sentret"> Fouinette </option>
                 <option value="furret"> Fouinar </option>
                 <option value="hoothoot"> Hoothoot </option>

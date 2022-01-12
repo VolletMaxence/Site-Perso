@@ -20,7 +20,7 @@ include "../../Session/BDD.php";
     <body>
         <?php
 
-        $ID = $_SESSION['ID'];
+        $ID = $_SESSION['IDusername'];
         $Poke = $_SESSION['IDPoke'];
         
         console_log("ID Utilisateur : ".$_SESSION['ID']);
@@ -32,14 +32,14 @@ include "../../Session/BDD.php";
 
         //Récuperer le nombre de reset
         $nbrReset = $Shiny['Reset'];
-        
-        console_log("Lien GIF / PNG : ".$Shiny['Lien_Image']);
+        $ImageShiny = $Shiny['Lien_Image'];
+        console_log("Lien GIF / PNG : ".$ImageShiny);
         //$Image = "../../Dossier_Shiny/ani-shiny/".$Shiny['Nom'].".gif";
 
         
         ?>
         <div id="Image" class="">
-            <img id="sprite" class="" src= <?= $Shiny['Lien_Image'] ?> alt="Image de votre Shiny">
+            <img id="sprite" class="" src= <?= $ImageShiny ?> alt="Image de votre Shiny">
         </div>
         <script>
             var Sprite = document.getElementById("sprite");

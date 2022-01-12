@@ -7,10 +7,13 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
         <img class="fit-picture" src="">
         <?php
         echo $Version."\n";
-        echo $Nom."\n";
+        //echo $Nom."\n";
         if($Reset != 0)
         {
             echo $Reset."\n";
+        } else if ($Reset == 0 && $Fini != 1)
+        {
+            echo "Vous n'avez pas encore rencontré ce pokémon.";
         }
 
         if($Fini == 1)
@@ -32,7 +35,7 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
             ?>
             <form method="post" id="">
                 <!-- value censer s'envoyer au serveur mais pas afficher sur page -->
-                <input type="hidden" name="random" value="<?= $i ?>">
+                <input type="hidden" name="random" value="<?= $IDPoke ?>">
                 <input name="IDPoke" type=submit class="btn btn-default" value="Reprendre la chasse (bon courage)">
             </form>
             <?php 
