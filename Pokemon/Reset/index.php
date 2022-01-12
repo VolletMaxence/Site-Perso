@@ -100,6 +100,7 @@
             <?php
             if(isset($_POST["submit"]))
             {
+                $JeuShasse = NULL;
                 $JeuShasse = $_POST['Jeu'];
                 if(isset($JeuShasse))
                 {
