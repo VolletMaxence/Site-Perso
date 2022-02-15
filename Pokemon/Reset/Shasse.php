@@ -55,7 +55,7 @@ include "../../Session/BDD.php";
 
         <button type="button" id="plusUn" onclick="plusUn('<?php echo $nbrReset ?>','<?php echo $Poke ?>')"> +1 Reset </button>
 
-        <button type="button" id="Fin" onclick=Fin()> Shiny Capturé </button>
+        <button type="button" id="Fin" onclick=Fin(<?php echo $Poke ?>)> Shiny Capturé </button>
         <!-- Boutton Retour -->
         <button type="button" id="Attaque" onclick=Pause()> Stoper la shasse (ce sera save) </button>
 
