@@ -4362,7 +4362,7 @@
         
 
             <select id="Liste8G" name="Liste8G" class="position-absolute" style="visibility: hidden;">
-                            <option value="bulbasaur"> Bulbizarre </option>
+                <option value="bulbasaur"> Bulbizarre </option>
                 <option value="ivysaur"> Herbizarre </option>
                 <option value="venusaur"> Florizarre </option>
                 <option value="charmander"> Salamèche </option>
@@ -4406,6 +4406,7 @@
                 <option value="dugtrio-alola"> Triopikeur d'Alola</option>
                 <option value="meowth"> Miaouss </option>
                 <option value="meowth-alola"> Miaouss d'Alola</option>
+                <option value="meowth-galar"> Miaouss de Galar</option>
                 <option value="persian"> Persian </option>
                 <option value="persian-alola"> Persian d'Alola</option>
                 <option value="psyduck"> Psykokwak </option>
@@ -4424,12 +4425,17 @@
                 <option value="tentacool"> Tentacool </option>
                 <option value="tentacruel"> Tentacruel </option>
                 <option value="ponyta"> Ponyta </option>
+                <option value="ponyta-galar"> Ponyta de Galar</option>
                 <option value="rapidash"> Galopa </option>
+                <option value="rapidash-galar"> Galopa de Galar </option>
                 <option value="slowpoke"> Ramoloss </option>
-                <option value="slowbro"> Flagadoss </option>
+                <option value="slowpoke-galar"> Ramoloss de Galar</option>
+                <option value="slowbro"> Flagadoss</option>
+                <option value="slowbro-galar"> Flagadoss de Galar</option>
                 <option value="magnemite"> Magnéti </option>
                 <option value="magneton"> Magnéton </option>
                 <option value="farfetch'd"> Canarticho </option>
+                <option value="farfetch'd-galar"> Canarticho de Galar</option>
                 <option value="shellder"> Kokiyas </option>
                 <option value="cloyster"> Crustabri </option>
                 <option value="gastly"> Fantominus </option>
@@ -4449,6 +4455,7 @@
                 <option value="lickitung"> Excelangue </option>
                 <option value="koffing"> Smogo </option>
                 <option value="weezing"> Smogogo </option>
+                <option value="weezing-galar"> Smogogo de Galar</option>
                 <option value="rhyhorn"> Rhinocorne </option>
                 <option value="rhydon"> Rhinoféros </option>
                 <option value="chansey"> Leveinard </option>
@@ -4461,6 +4468,7 @@
                 <option value="staryu"> Stari </option>
                 <option value="starmie"> Staross </option>
                 <option value="mrmime"> M.Mime </option>
+                <option value="mrmime-galar"> M.Mime de Galar</option>
                 <option value="Scyther"> Insécateur </option>
                 <option value="Jynx"> Lippoutou </option>
                 <option value="electabuzz"> Elektek </option>
@@ -4483,8 +4491,11 @@
                 <option value="aerodactyl"> Ptéra </option>
                 <option value="snorlax"> Ronflex </option>
                 <option value="articuno"> Artikodin </option>
+                <option value="articuno-galar"> Artikodin de Galar </option>
                 <option value="zapdos"> Electhor </option>
+                <option value="zapdos-galar"> Electhor de Galar </option>
                 <option value="moltres"> Sulfura </option>
+                <option value="moltres-galar"> Sulfura de Galar</option>
                 <option value="dratini"> Minidraco </option>
                 <option value="dragonair"> Draco </option>
                 <option value="dragonite"> Dracolosse </option>
@@ -4512,6 +4523,7 @@
                 <option value="espeon"> Mentali </option>
                 <option value="umbreon"> Noctali </option>
                 <option value="slowking"> Roigada </option>
+                <option value="slowking-galar"> Roigada de Galar </option>
                 <option value="wobbuffet"> Qulbutoké </option>
                 <option value="dunsparce"> Insolourdo </option>
                 <option value="steelix"> Steelix </option>
@@ -4523,6 +4535,7 @@
                 <option value="swinub"> Marcacrin </option>
                 <option value="piloswine"> Cochignon </option>
                 <option value="corsola"> Corayon </option>
+                <option value="corsola-galar"> Corayon de Galar </option>
                 <option value="remoraid"> Rémoraid </option>
                 <option value="octillery"> Octillery </option>
                 <option value="delibird"> Cadoizo </option>
@@ -4556,7 +4569,9 @@
                 <option value="marshtomp"> Flobio </option>
                 <option value="swampert"> Laggron </option>
                 <option value="zigzagoon"> Zigzaton </option>
+                <option value="zigzagoon-galar"> Zigzaton de Galar</option>
                 <option value="linoone">  Linéon</option>
+                <option value="linoone-galar">  Linéon de Galar</option>
                 <option value="lotad">  Nénupiot</option>
                 <option value="Lombre"> Lombre </option>
                 <option value="ludicolo"> Ludicolo </option>
@@ -4738,7 +4753,9 @@
                 <option value="krokorok"> Escroco </option>
                 <option value="krookodile"> Crocorible </option>
                 <option value="darumaka"> Darumarond </option>
+                <option value="darumaka-galar"> Darumarond de Galar </option>
                 <option value="darmanitan"> Darumacho </option>
+                <option value="darmanitan-galar"> Darumacho de Galar</option>
                 <option value="maractus"> Maracachi </option>
                 <option value="dweebble"> Crabicoque </option>
                 <option value="crustle"> Crabaraque </option>
@@ -4746,6 +4763,7 @@
                 <option value="scrafty"> Baggaïd </option>
                 <option value="sigilyph"> Cryptéro </option>
                 <option value="yamask"> Tutafeh </option>
+                <option value="yamask-galar"> Tutafeh de Galar </option>
                 <option value="cofagrigus"> Tutankafer </option>
                 <option value="tirtouga"> Carapagos </option>
                 <option value="carracosta"> Mégapagos </option>
@@ -4794,6 +4812,7 @@
                 <option value="shelmet"> Escargaume </option>
                 <option value="accelgot"> Limaspeed </option>
                 <option value="stunfisk"> Limonde </option>
+                <option value="stunfisk-galar"> Limonde de Galar</option>
                 <option value="mienfoo"> Kungfouine </option>
                 <option value="mienshao"> Shaofouine </option>
                 <option value="druddigon"> Drakkarmin </option>
