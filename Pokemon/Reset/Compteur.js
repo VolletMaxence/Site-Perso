@@ -1,27 +1,23 @@
-function Shasser($ID)
+function plusUn(nbrReset, Poke)
 {
-    fetch("Redirection.php", {
-        method : "POST",
-        body: JSON.stringify({
-            ID: $ID
-        }),
-    }).then (res => 
-    {
-        //Redirection
-        console.log("pute");
-    }).catch (err => console.error (err));
-}
+    let currentValue = document.getElementById( "Nombre" ).innerHTML;
 
-function plusUn()
-{
-    fetch( "Fonction/Compteur.php" ).then( res => {
+    $.ajax({
+        url : 'Fonction/Compteur.php',
+        type : 'POST',
+        data : { ID: Poke, nbrReset: currentValue},
 
-        let currentValue = document.getElementById( "Nombre" ).innerHTML;
+        success : function(code_html, statut)
+        {
+            console.log( code_html );
+            Value = parseInt( currentValue );
+            Value++
+            document.getElementById( "Nombre" ).innerHTML = Value;
 
-        console.log( currentValue );
-        currentValue = parseInt( currentValue );
-        currentValue++
-        document.getElementById( "Nombre" ).innerHTML = currentValue;
-
-    }).catch( err => console.error( err ) );
+        },
+        error : function(code_html, statut)
+        {
+            alert("Erreur");
+        },
+    })
 }

@@ -16,7 +16,6 @@
             require "../../Session/BDD.php";
             include "Liste/ListePoke.php";
             include "Liste/ListeMethode.php";
-            
             $i = 1;
         ?>
         <!-- Pouvoir reprendre une shasse en cour

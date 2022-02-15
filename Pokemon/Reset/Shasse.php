@@ -2,6 +2,7 @@
 include '../../Menu/Menu.php'; // Hello Gros Chien //
 include 'Shiny.php';
 include "../../Session/BDD.php";
+//include "Fonction/Compteur.php";
 ?>
 
 <html>
@@ -23,7 +24,7 @@ include "../../Session/BDD.php";
         $ID = $_SESSION['IDusername'];
         $Poke = $_SESSION['IDPoke'];
         
-        console_log("ID Utilisateur : ".$_SESSION['ID']);
+        console_log("ID Utilisateur : ".$_SESSION['IDusername']);
         console_log("ID Poké : ".$Poke);
 
         $stmt = $_SQL->prepare("SELECT * FROM `shiny` WHERE `ID`= ? AND `Fini` = 0 ");
@@ -52,7 +53,7 @@ include "../../Session/BDD.php";
             <?= $nbrReset; ?>
         </div>
 
-        <button type="button" id="plusUn" onclick=plusUn()> +1 Reset </button>
+        <button type="button" id="plusUn" onclick="plusUn('<?php echo $nbrReset ?>','<?php echo $Poke ?>')"> +1 Reset </button>
 
         <button type="button" id="Fin" onclick=Fin()> Shiny Capturé </button>
         <!-- Boutton Retour -->
