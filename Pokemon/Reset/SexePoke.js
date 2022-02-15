@@ -1,61 +1,4 @@
-//Ajout de 1 au compteur
-function plusUn(nbrReset, Poke)
-{
-    let currentValue = document.getElementById( "Nombre" ).innerHTML;
 
-    $.ajax({
-        url : 'Fonction/Compteur.php',
-        type : 'POST',
-        data : { ID: Poke, nbrReset: currentValue},
-
-        success : function(code_html, statut)
-        {
-            console.log( code_html );
-            Value = parseInt( currentValue );
-            Value++
-            document.getElementById( "Nombre" ).innerHTML = Value;
-
-        },
-        error : function(code_html, statut)
-        {
-            alert("Erreur");
-        },
-    })
-}
-
-//Le pokémon a été capturé
-function Fin(Poke, Nom)
-{
-    //Afficher un formulaire pour ajouter des information
-    SexePoke = document.querySelector('input[name="Sexe"]:checked').value;
-
-    let currentValue = document.getElementById( "Nombre" ).innerHTML;
-    $.ajax({
-        url : 'Fonction/Fin.php',
-        type : 'POST',
-        data : { ID: Poke, nbrReset: currentValue, Sexe: SexePoke, Nom: Nom},
-
-        success : function(code_html, statut)
-        {
-            //Redirection vers page principal
-            document.location.href="../Reset"; 
-
-        },
-        error : function(code_html, statut)
-        {
-            alert("Erreur");
-        },
-    })
-}
-
-function Pause()
-{
-    document.location.href="../Reset"; 
-}
-
-function RadioButtonSexe(Name)
-{
-    console.log("RadioButtonSexe");
     //Liste Poké mâle
     if(
         Name == nidoranm ||
@@ -81,13 +24,8 @@ function RadioButtonSexe(Name)
         Name == morgrem ||
         Name == grimmsnarl)
     {
-        console.log("Male");
         document.getElementById("Male").checked = true;
         document.getElementById("SexePoke").style.display = none;
-        document.getElementById("InfoSexePoke").style.display = none;
-        document.getElementById("Male").style.display = none;
-        document.getElementById("Femelle").style.display = none;
-        document.getElementById("Assexue").style.display = none;
     } /* Liste Poké uniquement femelle */ else if (
         Name == nidoranf ||
         Name == nidorina ||
@@ -123,13 +61,8 @@ function RadioButtonSexe(Name)
         Name == alcremie
     )
     {
-        console.log("Femelle");
         document.getElementById("Femelle").checked = true;
         document.getElementById("SexePoke").style.display = none;
-        document.getElementById("InfoSexePoke").style.display = none;
-        document.getElementById("Male").style.display = none;
-        document.getElementById("Femelle").style.display = none;
-        document.getElementById("Assexue").style.display = none;
     } /*liste Poké assexue */ else if (
         Name == magnemite ||
         Name == magneton ||
@@ -256,12 +189,6 @@ function RadioButtonSexe(Name)
         Name == spectrier ||
         Name == calyrex)
         {
-            console.log("Assexue");
             document.getElementById("Assexue").checked = true;
-            document.getElementById("SexePoke").style.visibility = none;
-            document.getElementById("InfoSexePoke").style.display = none;
-            document.getElementById("Male").style.display = none;
-            document.getElementById("Femelle").style.display = none;
-            document.getElementById("Assexue").style.display = none;
+            document.getElementById("SexePoke").style.display = none;
         }
-}

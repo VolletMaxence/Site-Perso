@@ -1793,8 +1793,8 @@
                 <option value="virizion"> Viridium </option>
                 <option value="tornadus"> Boréas </option>
                 <option value="thundurus"> Fulguris </option>
-                <option value="Reshiram"> Reshiram </option>
-                <option value="Zekrom"> Zekrom </option>
+                <option value="reshiram"> Reshiram </option>
+                <option value="zekrom"> Zekrom </option>
                 <option value="landorus"> Démétéros </option>
                 <option value="kyurem"> Kyurem </option>
                 <option value="keldeo"> Keldeo </option>
@@ -2448,8 +2448,8 @@
                 <option value="virizion"> Viridium </option>
                 <option value="tornadus"> Boréas </option>
                 <option value="thundurus"> Fulguris </option>
-                <option value="Reshiram"> Reshiram </option>
-                <option value="Zekrom"> Zekrom </option>
+                <option value="reshiram"> Reshiram </option>
+                <option value="zekrom"> Zekrom </option>
                 <option value="landorus"> Démétéros </option>
                 <option value="kyurem"> Kyurem </option>
                 <option value="keldeo"> Keldeo </option>
@@ -3193,8 +3193,8 @@
                 <option value="virizion"> Viridium </option>
                 <option value="tornadus"> Boréas </option>
                 <option value="thundurus"> Fulguris </option>
-                <option value="Reshiram"> Reshiram </option>
-                <option value="Zekrom"> Zekrom </option>
+                <option value="reshiram"> Reshiram </option>
+                <option value="zekrom"> Zekrom </option>
                 <option value="landorus"> Démétéros </option>
                 <option value="kyurem"> Kyurem </option>
                 <option value="keldeo"> Keldeo </option>
@@ -4019,8 +4019,8 @@
                 <option value="virizion"> Viridium </option>
                 <option value="tornadus"> Boréas </option>
                 <option value="thundurus"> Fulguris </option>
-                <option value="Reshiram"> Reshiram </option>
-                <option value="Zekrom"> Zekrom </option>
+                <option value="reshiram"> Reshiram </option>
+                <option value="zekrom"> Zekrom </option>
                 <option value="landorus"> Démétéros </option>
                 <option value="kyurem"> Kyurem </option>
                 <option value="keldeo"> Keldeo </option>
@@ -4837,8 +4837,8 @@
                 <option value="virizion"> Viridium </option>
                 <option value="tornadus"> Boréas </option>
                 <option value="thundurus"> Fulguris </option>
-                <option value="Reshiram"> Reshiram </option>
-                <option value="Zekrom"> Zekrom </option>
+                <option value="reshiram"> Reshiram </option>
+                <option value="zekrom"> Zekrom </option>
                 <option value="landorus"> Démétéros </option>
                 <option value="kyurem"> Kyurem </option>
                 <option value="keldeo"> Keldeo </option>

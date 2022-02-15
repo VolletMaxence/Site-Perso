@@ -34,6 +34,7 @@ include "../../Session/BDD.php";
         //Récuperer le nombre de reset
         $nbrReset = $Shiny['Reset'];
         $ImageShiny = $Shiny['Lien_Image'];
+        $NomPoke = $Shiny['Nom'];
         console_log("Lien GIF / PNG : ".$ImageShiny);
         //$Image = "../../Dossier_Shiny/ani-shiny/".$Shiny['Nom'].".gif";
 
@@ -55,10 +56,29 @@ include "../../Session/BDD.php";
 
         <button type="button" id="plusUn" onclick="plusUn('<?php echo $nbrReset ?>','<?php echo $Poke ?>')"> +1 Reset </button>
 
-        <button type="button" id="Fin" onclick=Fin(<?php echo $Poke ?>)> Shiny Capturé </button>
+        <button type="button" id="Fin" onclick="Fin('<?php echo $Poke ?>',' <?php echo $Shiny['Reset'] ?>')"> Shiny Capturé </button>
         <!-- Boutton Retour -->
         <button type="button" id="Attaque" onclick=Pause()> Stoper la shasse (ce sera save) </button>
 
+        <div id="SexePoke">
+            <p id="InfoSexePoke">Sexe de votre pokémon : </p>
+            <div>
+            <input type="radio" id="Male" name="Sexe" value="Mâle" checked>
+            <label for="Male">Mâle</label>
+            </div>
+
+            <div>
+            <input type="radio" id="Femelle" name="Sexe" value="Femelle">
+            <label for="Femelle">Femelle</label>
+            </div>
+
+            <div style = "display:none">
+            <input type="radio" id="Assexue" name="Sexe" value="Assexué">
+            <label for="Assexue">Assexué</label>
+            </div>
+        </div>
+
     </body>
     <script src="Compteur.js"></script>
+    <script language="javascript" type="text/javascript" src="Compteur.js"> function RadioButtonSexe'(<?php echo $NomPoke ?>)' </script>
 </html>
