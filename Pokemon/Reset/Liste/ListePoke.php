@@ -1700,7 +1700,8 @@
                 <option value="whimsicott"> Farfaduvet </option>
                 <option value="petill"> Chlorobule </option>
                 <option value="lilligant"> Fragilady </option>
-                <option value="basculin"> Bargantua </option>
+                <option value="basculin"> Bargantua motif Rouge</option>
+                <option value="basculin-blue"> Bargantua motif Bleu</option>
                 <option value="sandile"> Mascaïman </option>
                 <option value="krokorok"> Escroco </option>
                 <option value="krookodile"> Crocorible </option>
@@ -2355,7 +2356,8 @@
                 <option value="whimsicott"> Farfaduvet </option>
                 <option value="petill"> Chlorobule </option>
                 <option value="lilligant"> Fragilady </option>
-                <option value="basculin"> Bargantua </option>
+                <option value="basculin"> Bargantua motif Rouge</option>
+                <option value="basculin-blue"> Bargantua motif Bleu</option>
                 <option value="sandile"> Mascaïman </option>
                 <option value="krokorok"> Escroco </option>
                 <option value="krookodile"> Crocorible </option>
@@ -3100,7 +3102,8 @@
                 <option value="whimsicott"> Farfaduvet </option>
                 <option value="petill"> Chlorobule </option>
                 <option value="lilligant"> Fragilady </option>
-                <option value="basculin"> Bargantua </option>
+                <option value="basculin"> Bargantua motif Rouge</option>
+                <option value="basculin-blue"> Bargantua motif Bleu</option>
                 <option value="sandile"> Mascaïman </option>
                 <option value="krokorok"> Escroco </option>
                 <option value="krookodile"> Crocorible </option>
@@ -3926,7 +3929,8 @@
                 <option value="whimsicott"> Farfaduvet </option>
                 <option value="petill"> Chlorobule </option>
                 <option value="lilligant"> Fragilady </option>
-                <option value="basculin"> Bargantua </option>
+                <option value="basculin"> Bargantua motif Rouge</option>
+                <option value="basculin-blue"> Bargantua motif Bleu</option>
                 <option value="sandile"> Mascaïman </option>
                 <option value="krokorok"> Escroco </option>
                 <option value="krookodile"> Crocorible </option>
@@ -4748,7 +4752,8 @@
                 <option value="whimsicott"> Farfaduvet </option>
                 <option value="petill"> Chlorobule </option>
                 <option value="lilligant"> Fragilady </option>
-                <option value="basculin"> Bargantua </option>
+                <option value="basculin"> Bargantua motif Rouge</option>
+                <option value="basculin-blue"> Bargantua motif Bleu</option>
                 <option value="sandile"> Mascaïman </option>
                 <option value="krokorok"> Escroco </option>
                 <option value="krookodile"> Crocorible </option>

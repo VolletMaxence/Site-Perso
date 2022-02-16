@@ -59,7 +59,7 @@ include "../../Session/BDD.php";
 
             <button type="button" class="btn btn-outline-success" id="Fin" onclick="Fin('<?php echo $Poke ?>',' <?php echo $Shiny['Nom'] ?>',' <?php echo $ImageShiny ?>',' <?php echo $Shiny['Sexe'] ?>')"> Shiny Capturé </button>
             <!-- Boutton Retour -->
-            <button type="button" class="btn btn-outline-warning" id="Attaque" onclick=Pause()> Stoper la shasse (ce sera save) </button>
+            <button type="button" class="btn btn-outline-warning" id="Attaque" onclick=Pause()> Stoper la shasse </button>
         </div>
 
         <div id="SexePoke" class="text-center">

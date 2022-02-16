@@ -23,7 +23,22 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
             <?php
         } else if ($Reset == 0 && $Fini != 1)
         {
-            echo "Vous n'avez pas encore rencontré ce pokémon.";
+            ?>
+            <div class="text-center">
+                <?php
+                echo "Vous n'avez pas encore rencontré ce pokémon.";
+                ?>
+            </div>
+            <?php
+        } else if ($Reset == 0 && $Fini == 1)
+        {
+            ?>
+            <div class="text-center">
+                <?php
+                echo "Accident.";
+                ?>
+            </div>
+            <?php
         }
 
         if($Fini == 1)
