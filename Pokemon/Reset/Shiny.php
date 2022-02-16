@@ -5,12 +5,22 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
     ?>
     <div class="">
         <img class="fit-picture" src="">
-        <?php
-        echo $Version."\n";
+            <div class="text-center">
+                <?php
+                echo $Version."\n";
+                ?>
+            </div>
+            <?php
         //echo $Nom."\n";
         if($Reset != 0)
         {
-            echo $Reset."\n";
+            ?>
+            <div class="text-center">
+                <?php
+                echo $Reset."\n";
+                ?>
+            </div>
+            <?php
         } else if ($Reset == 0 && $Fini != 1)
         {
             echo "Vous n'avez pas encore rencontré ce pokémon.";
@@ -18,15 +28,28 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
 
         if($Fini == 1)
         {
-            echo $Sexe."\n";
-            echo $Rencontre."\n";
             ?>
-                <img class="" src= <?= $Lien ?> alt="Image de votre Shiny">
+            <div class="text-center">
+                <?php
+                    echo $Sexe."\n";
+                ?>
+            <div class="text-center">
+                <?php
+                    echo $Rencontre."\n";
+                ?>
+                <div class="text-center">
+                    <img class="" src= <?= $Lien ?> alt="Image de votre Shiny">
+                </div>
+                <div class="text-center">
+                    <hr style="margin: auto;" width="41%">
+                </div>
             <?php
         } else 
         {
             ?>
-                <img class="" src= <?= $Lien ?> alt="Image de votre Shiny">
+                <div class="text-center">
+                    <img class="" src= <?= $Lien ?> alt="Image de votre Shiny">
+                </div>
             <?php
             
             //onclick : Redirection avec ID du poké stocké pour l'utiliser dans l autre page.
@@ -38,6 +61,9 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
                 <input type="hidden" name="random" value="<?= $IDPoke ?>">
                 <input name="IDPoke" type=submit class="btn btn-default" value="Reprendre la chasse (bon courage)">
             </form>
+            <div class="text-center">
+                <hr style="margin: auto;" width="41%">
+            </div>
             <?php 
             if(isset($_POST['IDPoke']))
             {

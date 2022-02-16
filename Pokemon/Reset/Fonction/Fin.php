@@ -38,7 +38,9 @@
             $Nom == "milcrery" ||
             $Nom == "alcremie")
         {
-
+            $stmt = $_SQL->prepare("UPDATE `shiny` SET `Sexe`= 'Femelle' WHERE `ID`= ? ");
+            $stmt->execute(array($_POST['ID']));
+            $Shiny = $stmt->fetch() ;
         } else {
             $stmt = $_SQL->prepare("UPDATE `shiny` SET `Sexe`= 'Femelle' WHERE `ID`= ? ");
             $stmt->execute(array($_POST['ID']));

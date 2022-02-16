@@ -40,7 +40,7 @@ include "../../Session/BDD.php";
 
         
         ?>
-        <div id="Image" class="">
+        <div id="Image" class="text-center">
             <img id="sprite" class="" src= <?= $ImageShiny ?> alt="Image de votre Shiny">
         </div>
         <script>
@@ -50,24 +50,26 @@ include "../../Session/BDD.php";
             Sprite.style.width = (SpriteWidth * 2.5) + "px";
             Sprite.style.height = (SpriteHeight * 2.5) + "px";
         </script>
-        <div id="Nombre" class="">
+        <div id="Nombre" class="text-center display-1">
             <?= $nbrReset; ?>
         </div>
 
-        <button type="button" id="plusUn" onclick="plusUn('<?php echo $nbrReset ?>','<?php echo $Poke ?>')"> +1 Reset </button>
+        <div id="ShasseButton" class="text-center">
+            <button type="button" class="btn btn-outline-primary" id="plusUn" onclick="plusUn('<?php echo $nbrReset ?>','<?php echo $Poke ?>')"> +1 Reset </button>
 
-        <button type="button" id="Fin" onclick="Fin('<?php echo $Poke ?>',' <?php echo $Shiny['Reset'] ?>')"> Shiny Capturé </button>
-        <!-- Boutton Retour -->
-        <button type="button" id="Attaque" onclick=Pause()> Stoper la shasse (ce sera save) </button>
+            <button type="button" class="btn btn-outline-success" id="Fin" onclick="Fin('<?php echo $Poke ?>',' <?php echo $Shiny['Reset'] ?>')"> Shiny Capturé </button>
+            <!-- Boutton Retour -->
+            <button type="button" class="btn btn-outline-warning" id="Attaque" onclick=Pause()> Stoper la shasse (ce sera save) </button>
+        </div>
 
-        <div id="SexePoke">
+        <div id="SexePoke" class="text-center">
             <p id="InfoSexePoke">Sexe de votre pokémon : </p>
-            <div>
+            <div class="radio-inline">
             <input type="radio" id="Male" name="Sexe" value="Mâle" checked>
             <label for="Male">Mâle</label>
             </div>
 
-            <div>
+            <div class="radio-inline">
             <input type="radio" id="Femelle" name="Sexe" value="Femelle">
             <label for="Femelle">Femelle</label>
             </div>
