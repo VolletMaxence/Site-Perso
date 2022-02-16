@@ -24,7 +24,7 @@ function plusUn(nbrReset, Poke)
 }
 
 //Le pokémon a été capturé
-function Fin(Poke, Nom)
+function Fin(Poke, Nom, Path, SexePoke)
 {
     //Afficher un formulaire pour ajouter des information
     SexePoke = document.querySelector('input[name="Sexe"]:checked').value;
@@ -33,7 +33,7 @@ function Fin(Poke, Nom)
     $.ajax({
         url : 'Fonction/Fin.php',
         type : 'POST',
-        data : { ID: Poke, nbrReset: currentValue, Sexe: SexePoke, Nom: Nom},
+        data : { ID: Poke, nbrReset: currentValue, Sexe: SexePoke, Nom: Nom, Path: Path},
 
         success : function(code_html, statut)
         {
