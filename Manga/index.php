@@ -12,6 +12,8 @@
     <body>
         <?php
             include '../Menu/Menu.php'; // Hello Gros Chien //
+            include 'manga.php';
+            require "../Session/BDD.php";
         ?>
 
         <!-- Doit se connecter pour avoir acces a la liste livre / manga, système de notif pour admin, ajout série livre doit être accepter par admin -->
@@ -19,11 +21,71 @@
         <?php
         if($_SESSION && $_SESSION['Connect'] == true)
         { 
-        ?>
-            <!-- lien vers page "ma liste de série" -->
-            
+            // lien vers page "ma liste de série"
+            $ID = $_SESSION['IDusername'];
+            console_log("ID : ".$ID);
 
-        <?php
+            //Bouton redirection pour ajouter Manga dans sa liste
+            if($_SESSION['Admin'] == 1 || $_SESSION['Admin'] == 2)
+            {
+            ?>
+                <form method="post" id="">
+                    <input name="AjoutLibreBDD" type=submit class="btn btn-default" value="Ajouter Livre à la Base">
+                </form>
+
+                <form method="post" id="">
+                    <input name="UpdateLibreBDD" type=submit class="btn btn-default" value="Modifier livre dans la Base">
+                </form>
+
+                <?php
+                if(isset($_POST['AjoutLibreBDD']))
+                {
+                    ?>
+                    <meta http-equiv="Refresh" content="0; URL=AjoutLivreBDD.php">
+                    <?php
+                }
+                if(isset($_POST['UpdateLibreBDD']))
+                {
+                    ?>
+                    <meta http-equiv="Refresh" content="0; URL=UpdateLivreBDD.php">
+                    <?php
+                }
+            }
+            ?>
+            <form method="post" id="">
+                <input name="AjoutLivreListe" type=submit class="btn btn-default" value="Ajouter Livre à sa liste">
+            </form>
+
+            <form method="post" id="">
+                <input name="UpdateLivreListe" type=submit class="btn btn-default" value="Modifier livre de sa liste">
+            </form>
+
+            <?php
+            if(isset($_POST['UpdateLivreListe']))
+            {
+                ?>
+                <meta http-equiv="Refresh" content="0; URL=UpdateLivreListe.php">
+                <?php
+            }
+            if(isset($_POST['AjoutLivreListe']))
+            {
+                ?>
+                <meta http-equiv="Refresh" content="0; URL=AjoutLivreListe.php">
+                <?php
+            }
+
+            //Bouton redirection pour ajouter Manga dans BDD
+
+            //Récuperer le manga depuis table MangaUtilisatuer
+            $stmt = $_SQL->prepare("SELECT * FROM `mangaUtilisateur` WHERE `ID_Utilisateur` = ?");
+            $stmt->execute(array($ID));
+            while($Manga = $stmt->fetch())
+            {
+                //Affiche une fiche pour chaque poké
+                AfficheInfoManga($Manga['ID'], $Manga['ID_Utilisateur'], $Manga['ID_Manga'], $Manga['nbrTomePosseder']);
+                //$i++;
+            }
+        
         } else 
         {
             include '../Session/session.php';
@@ -31,3 +93,11 @@
         ?>
     </body>
 </html>
+
+<?php
+function console_log( $data ){
+    echo '<script>';
+    echo 'console.log('. json_encode( $data ) .')';
+    echo '</script>';
+}
+?>

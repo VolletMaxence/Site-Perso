@@ -57,6 +57,7 @@
                         } else {
                             $_SESSION['Connect']=true;
                             $_SESSION['IDusername']=$stmt['ID'];
+                            $_SESSION['Admin']=$stmt['Admin'];
                             //Refresh la page pour pouvoir acceder au autres page.
                             echo "<script type='text/javascript'>document.location.replace('../Compte');</script>";
                         }

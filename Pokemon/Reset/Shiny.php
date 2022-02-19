@@ -88,7 +88,7 @@ function AfficheInfoShiny($Nom, $Rencontre, $Version, $Sexe, $Reset, $Fini, $IDP
                 console_log($IDP);
                 $_SESSION['IDPoke'] = $IDP;
                 ?>
-                <meta http-equiv="Refresh" content="1; URL=Shasse.php">
+                <meta http-equiv="Refresh" content="0; URL=Shasse.php">
                 <?php
             }
         }
