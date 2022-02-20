@@ -10,7 +10,7 @@ include "../../Session/BDD.php";
         <!--Icone : -->
         <link rel="icon" href="../../Icone/Shellos-Icone.ico">
         <!-- Ajax -->
-        <script src="JQuery.js" type="text/javascript"></script>
+        <script src="../../JQuery.js" type="text/javascript"></script>
         <!-- CSS Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- JS Bootstrap -->
@@ -55,9 +55,9 @@ include "../../Session/BDD.php";
         </div>
 
         <div id="ShasseButton" class="text-center">
-            <button type="button" class="btn btn-outline-primary" id="plusUn" onclick="plusUn('<?php echo $nbrReset ?>','<?php echo $Poke ?>')"> +1 Reset </button>
+            <button type="button" class="btn btn-outline-primary" id="plusUn" onclick="plusUn('<?= $nbrReset ?>','<?= $Poke ?>')"> +1 Reset </button>
 
-            <button type="button" class="btn btn-outline-success" id="Fin" onclick="Fin('<?php echo $Poke ?>',' <?php echo $Shiny['Nom'] ?>',' <?php echo $ImageShiny ?>',' <?php echo $Shiny['Sexe'] ?>')"> Shiny Capturé </button>
+            <button type="button" class="btn btn-outline-success" id="Fin" onclick="Fin('<?= $Poke ?>',' <?= $Shiny['Nom'] ?>',' <?= $ImageShiny ?>',' <?= $Shiny['Sexe'] ?>')"> Shiny Capturé </button>
             <!-- Boutton Retour -->
             <button type="button" class="btn btn-outline-warning" id="Attaque" onclick=Pause()> Stoper la shasse </button>
         </div>

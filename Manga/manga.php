@@ -19,6 +19,17 @@ function AfficheInfoManga($ID, $ID_Utilisateur, $ID_Manga, $nbrTomePosseder)
         echo $nbrTomePosseder." / ".$Manga['nbrTome'];
     ?>
     </div>
+    <div class="text-center">
+        <?php
+        if($Manga['Fini'] == 1)
+        {
+            echo "Série fini !";
+        }else 
+        {
+            echo "Série en cour de parution.";
+        }
+        ?>
+    </div>
 <?php
 }
 

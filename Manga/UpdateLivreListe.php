@@ -12,6 +12,7 @@
     <body>
         <?php
             include '../Menu/Menu.php';
+            require "../Session/BDD.php";
         ?>
 
         UpdateLivreListe

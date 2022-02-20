@@ -2,6 +2,7 @@
     <head>
         <!--Icone : -->
         <link rel="icon" href="../Icone/Shellos-Icone.ico">
+        <script src="../JQuery.js" type="text/javascript"></script>
         <!-- CSS Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- JS Bootstrap -->
@@ -12,13 +13,66 @@
     <body>
         <?php
             include '../Menu/Menu.php';
+            require "../Session/BDD.php";
         ?>
 
-        AjoutLivreListe
-        <form method="post" id="">
-            <!-- Ajout Titre / nbr Tome / fini ou non /  -->
+        <?php
+        //Obtenir tout les livres en base
+            $stmt = $_SQL->query("SELECT * FROM `manga` WHERE 1");
+            // selectionne le id du jeux le nom et sa fait une jointure avec articlelike et game
+            ?>
+            <form method="POST" id="AjoutLivreListe">
+                <select id="ListeLivre" name="ListeLivre" class="position-absolute">
+                    <option value=''> Liste des livres </option>
+                    <?php
+                    While($getLivre = $stmt->fetch())
+                    {   // boucle while qui affiche les 3 meuilleur jeux
+                        ?>
+                        <option value='.<?= $getLivre["ID"] ?>'> <?= $getLivre['Nom'] ?> </option>
+                        <?php
+                    }
+                ?>
+                </select>
+            </form>
+
+            <form method="post" id="nbrTomeForm" required style="visibility: hidden;">
+                <div>
+                    <label for="nbrTomeParu"> Nombre de tomes posséder : </label>
+                    <input type="number" id="nbrTome" name="nbrTome" required style="visibility: hidden;">
+                </div>
+            </form>
+                <div>
+                    <input id="nbrTomeSubmit" name="EnvoieDansBase" type=button onclick="Update( ' NomLivre ','<?= $_SESSION['IDusername'] ?>', nbrTome ,'<?= $getLivre['nbrTome'] ?>)" class="btn btn-default" value="Ajout du livre en base" required style="visibility: hidden;">
+                </div>
+            
 
 
-        </form>
+
     </body>
+        <script src="Update.js"></script>
+        <script type='text/javascript'>
+            document.getElementById('ListeLivre').onchange = function() 
+            {
+                var index = this.selectedIndex;
+                var Serie = this.children[index].innerHTML.trim();
+
+                console.log(Serie);
+
+                document.getElementById('nbrTomeForm').style.visibility = "visible";
+                document.getElementById('nbrTome').style.visibility = "visible";
+                document.getElementById('nbrTomeSubmit').style.visibility = "visible";
+
+            }
+
+            document.getElementById('nbrTome').onchange = function() 
+            {
+                let nbrTome = this.value;
+
+                var e = document.getElementById("ListeLivre");
+                var NomLivre = e.value;
+
+                console.log(nbrTome);
+            }
+
+        </script>
 </html>
