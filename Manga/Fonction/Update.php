@@ -9,7 +9,7 @@
     echo $nbrTomeManga['nbrTome'];
     echo $_POST['nbrTome'];
 
-    if ($_POST['nbrTome'] < $nbrTomeManga['nbrTome'])
+    if ($_POST['nbrTome'] <= $nbrTomeManga['nbrTome'])
     {
         
         $stmt = $_SQL->prepare("INSERT INTO `mangaUtilisateur`(`ID_Utilisateur`, `ID_Manga`, `nbrTomePosseder`) VALUES (?,?,?)");
