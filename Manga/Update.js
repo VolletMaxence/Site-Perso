@@ -1,15 +1,19 @@
-function Update(IDManga, IDUtilisateur, nbrTome, nbrTomeMax)
+function Update(IDUtilisateur)
 {
+    ListeLivre = document.getElementById('ListeLivre')
+    var IDManga = ListeLivre.selectedIndex;
 
     console.log(IDManga);
-    console.log(IDUtilisateur);
+
+
+    let nbrTome = document.getElementById('nbrTome').value;
     console.log(nbrTome);
-    console.log(nbrTomeMax);
+
 
     $.ajax({
         url : 'Update.php',
         type : 'POST',
-        data : { IDManga: IDManga, IDUtilisateur: IDUtilisateur, nbrTome: nbrTome, nbrTomeMax: nbrTomeMax},
+        data : { IDUtilisateur: IDUtilisateur, IDManga: IDManga, nbrTome: nbrTome},
 
         success : function(code_html, statut)
         {

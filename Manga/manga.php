@@ -30,6 +30,7 @@ function AfficheInfoManga($ID, $ID_Utilisateur, $ID_Manga, $nbrTomePosseder)
         }
         ?>
     </div>
+    <hr style="margin: auto;" width="41%">
 <?php
 }
 

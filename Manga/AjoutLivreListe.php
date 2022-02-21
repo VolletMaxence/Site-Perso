@@ -34,7 +34,7 @@
                 ?>
                 </select>
             </form>
-
+            
             <form method="post" id="nbrTomeForm" required style="visibility: hidden;">
                 <div>
                     <label for="nbrTomeParu"> Nombre de tomes posséder : </label>
@@ -42,7 +42,7 @@
                 </div>
             </form>
                 <div>
-                    <input id="nbrTomeSubmit" name="EnvoieDansBase" type=button onclick="Update( ' NomLivre ','<?= $_SESSION['IDusername'] ?>', nbrTome ,'<?= $getLivre['nbrTome'] ?>)" class="btn btn-default" value="Ajout du livre en base" required style="visibility: hidden;">
+                    <input id="nbrTomeSubmit" name="EnvoieDansBase" type=button onclick="Update( <?= $_SESSION['IDusername'] ?>)" class="btn btn-default" value="Ajout du livre en base" required style="visibility: hidden;">
                 </div>
             
 
