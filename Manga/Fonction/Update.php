@@ -1,5 +1,5 @@
 <?php
-    require "../Session/BDD.php";
+    require "../../Session/BDD.php";
 
 
     $stmt = $_SQL->prepare("SELECT nbrTome FROM `manga` WHERE ID = ?");

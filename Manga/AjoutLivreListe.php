@@ -15,7 +15,19 @@
             include '../Menu/Menu.php';
             require "../Session/BDD.php";
         ?>
+        <form method="post" id="">
+            <input name="Retour" type=submit class="btn btn-default" value="Retour page d'acceuil">
+            </form>
 
+            <?php
+            if(isset($_POST['Retour']))
+            {
+                ?>
+                <meta http-equiv="Refresh" content="0; URL=../Manga">
+                <?php
+            }
+        ?>
+        </form>
         <?php
         //Obtenir tout les livres en base
             $stmt = $_SQL->query("SELECT * FROM `manga` WHERE 1");
@@ -49,7 +61,7 @@
 
 
     </body>
-        <script src="Update.js"></script>
+        <script src="Fonction/Update.js"></script>
         <script type='text/javascript'>
             document.getElementById('ListeLivre').onchange = function() 
             {
