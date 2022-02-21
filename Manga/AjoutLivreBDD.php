@@ -73,7 +73,7 @@
                 echo $_POST['Nom']." est déjà en base";
             } else 
             {
-                if($_POST['Fini'])
+                if(isset($_POST['Fini']))
                 {
                     $Fini = 1;
                 } else 
