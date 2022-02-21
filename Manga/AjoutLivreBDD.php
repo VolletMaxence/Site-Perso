@@ -44,7 +44,7 @@
 
             <div>
             <label for="TypeLivre"> Type de livre : </label>
-            <select id="TypeLivre" name="TypeLivre" class="position-absolute">
+            <select id="TypeLivre" name="TypeLivre" class="">
                 <option value=""> Sélectionner le type de série </option>
                 <option value="Manga"> Manga </option>
                 <option value="BD"> Bande Dessiné </option>

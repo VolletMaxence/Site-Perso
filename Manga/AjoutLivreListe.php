@@ -34,7 +34,7 @@
             // selectionne le id du jeux le nom et sa fait une jointure avec articlelike et game
             ?>
             <form method="POST" id="AjoutLivreListe">
-                <select id="ListeLivre" name="ListeLivre" class="position-absolute">
+                <select id="ListeLivre" name="ListeLivre" class="">
                     <option value=''> Liste des livres </option>
                     <?php
                     While($getLivre = $stmt->fetch())
