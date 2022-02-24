@@ -249,7 +249,7 @@
                     {
                         HuitG()
                         var Image = "../../Dossier_Shiny/ani-shiny/";
-                    }else if (Jeu === 'Diamant Etincelant' || Jeu === 'Perle Scientillante')
+                    }else if (Jeu === 'Diamant Étincelant' || Jeu === 'Perle Scientillante')
                     {
                         RemakeQuatreG()
                         var Image = "../../Dossier_Shiny/ani-shiny/";

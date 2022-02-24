@@ -29,14 +29,16 @@
             if($_SESSION['Admin'] == 1 || $_SESSION['Admin'] == 2)
             {
             ?>
-                <form method="post" id="">
-                    <input name="AjoutLibreBDD" type=submit class="btn btn-default" value="Ajouter Livre à la Base">
-                </form>
-
-                <form method="post" id="">
-                    <input name="UpdateLibreBDD" type=submit class="btn btn-default" value="Modifier livre dans la Base">
-                </form>
-
+                <div class="position end-0">
+                    <form method="post" id="">
+                        <input name="AjoutLibreBDD" type=submit class="btn btn-outline-warning" value="Ajouter Livre à la Base">
+                    </form>
+                </div>
+                <div class="position top-0 end-0">
+                    <form method="post" id="">
+                        <input name="UpdateLibreBDD" type=submit class="btn btn-outline-warning" value="Modifier livre dans la Base">
+                    </form>
+                </div>
                 <?php
                 if(isset($_POST['AjoutLibreBDD']))
                 {
@@ -52,14 +54,16 @@
                 }
             }
             ?>
-            <form method="post" id="">
-                <input name="AjoutLivreListe" type=submit class="btn btn-default" value="Ajouter Livre à sa liste">
-            </form>
-
-            <form method="post" id="">
-                <input name="UpdateLivreListe" type=submit class="btn btn-default" value="Modifier livre de sa liste">
-            </form>
-
+            <div class="text-left">
+                <form method="post" id="">
+                    <input name="AjoutLivreListe" type=submit class="btn btn-outline-primary" value="Ajouter Livre à sa liste">
+                </form>
+            </div>
+            <div class="text-left">
+                <form method="post" id="">
+                    <input name="UpdateLivreListe" type=submit class="btn btn-outline-primary" value="Modifier livre de sa liste">
+                </form>
+            </div>
             <?php
             if(isset($_POST['UpdateLivreListe']))
             {
