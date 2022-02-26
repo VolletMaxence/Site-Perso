@@ -648,6 +648,60 @@
                 <option value="deoxys"> Deoxys </option>
             </select>
         
+            <select id="Listecolosseum"  name="Listecolosseum" class="position-absolute" style="visibility: hidden;">
+                <option value="bayleef"> Macronium </option>
+                <option value="quilava"> Feurisson </option>
+                <option value="croconow"> Crocrodil </option>
+                <option value="furret"> Fouinar </option>
+                <option value="noctowl"> Noarfang </option>
+                <option value="ledian"> Coxyclaque </option>
+                <option value="ariados"> Migalos </option>
+                <option value="togepi"> Togepi </option>
+                <option value="togetic"> Togetic </option>
+                <option value="mareep"> Wattouat </option>
+                <option value="flaaffy"> Lainergie </option>
+                <option value="sudowoodo"> Simularbre </option>
+                <option value="skiploom"> Floravol </option>
+                <option value="aipom"> Capumain </option>
+                <option value="sunflora"> Héliatronc </option>
+                <option value="yanma"> Yanma </option>
+                <option value="quagsire"> Maraiste </option>
+                <option value="murkrow"> Cornèbre </option>
+                <option value="misdreavus"> Feuforêve </option>
+                <option value="forretress"> Foretress </option>
+                <option value="dunsparce"> Insolourdo </option>
+                <option value="gligar"> Scorplane </option>
+                <option value="granbull"> Granbull </option>
+                <option value="qwilfish"> Qwilfish </option>
+                <option value="scizor"> Cizayox </option>
+                <option value="shuckle"> Caratroc </option>
+                <option value="heracross"> Scarhino </option>
+                <option value="sneasel"> Farfuret </option>
+                <option value="ursaring"> Ursaring </option>
+                <option value="slugma"> Limagma </option>
+                <option value="piloswine"> Cochignon </option>
+                <option value="remoraid"> Rémoraid </option>
+                <option value="delibird"> Cadoizo </option>
+                <option value="mantine"> Démanta </option>
+                <option value="skarmory"> Airmure </option>
+                <option value="houndoom"> Démolosse </option>
+                <option value="stantler"> Cerfrousse </option>
+                <option value="smeargle"> Queulorior </option>
+                <option value="hitmontop"> Kapoera </option>
+                <option value="raikou"> Raikou </option>
+                <option value="entei"> Entei </option>
+                <option value="suicune"> Suicune </option>
+                <option value="tyranitar"> Tyranocif </option>
+                <option value="makuhita"> Makuhita </option>
+                <option value="meditite"> Méditikka </option>
+                <option value="vibrava"> Vibraninf </option>
+                <option value="swablu"> Tylton </option>
+                <option value="tropius"> Tropius </option>
+                <option value="absol"> Absol </option>
+                <option value="salamence"> Drattak </option>
+                <option value="metang"> Métang </option>
+                <option value="metagross"> Métalosse </option>
+            </select>
 
             <select id="Liste4G"  name="Liste4G" class="position-absolute" style="visibility: hidden;">
                 <option value="bulbasaur"> Bulbizarre </option>

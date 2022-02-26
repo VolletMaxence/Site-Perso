@@ -53,6 +53,7 @@
                     <option value="Rubis">Rubis
                     <option value="Saphir">Saphir
                     <option value="Emeraude">Emeraude
+                    <option value="Colosseum">Colosseum
                     <option value="Rouge Feu">Rouge Feu
                     <option value="Vert Feuille">Vert Feuille
                     <option disabled> Génération 4
@@ -112,14 +113,23 @@
                         console_log("Methode : ".$MethodeShasse);
                         $LienImage = "../../Dossier_Shiny/gen2-shiny/".$PokeShasse.".png";
 
+                    } else if ($JeuShasse == 'Colosseum')
+                    {
+                        $PokeShasse = $_POST['Listecolosseum'];
+                        $MethodeShasse = $_POST['ListeMethodecolosseum'];
+                        console_log("Jeu : ".$JeuShasse);
+                        console_log("Poke : ".$PokeShasse);
+                        console_log("Methode : ".$MethodeShasse);
+                        $LienImage = "../../Dossier_Shiny/gen3-colosseum-shiny/".$PokeShasse.".gif";
+
                     } else if ($JeuShasse == 'Rubis' || $JeuShasse == 'Saphir' || $JeuShasse == 'Emeraude' || $JeuShasse == 'Rouge Feu' || $JeuShasse == 'Vert Feuille')
                     {
-                        $PokeShasse = $_POST['Liste2G'];
+                        $PokeShasse = $_POST['Liste3G'];
                         $MethodeShasse = $_POST['ListeMethode2-3G'];
                         console_log("Jeu : ".$JeuShasse);
                         console_log("Poke : ".$PokeShasse);
                         console_log("Methode : ".$MethodeShasse);
-                        $LienImage = "../../Dossier_Shiny/gen2-shiny/".$PokeShasse.".png";
+                        $LienImage = "../../Dossier_Shiny/gen3-shiny/".$PokeShasse.".png";
 
                     } else if ($JeuShasse == 'Diamant' || $JeuShasse == 'Perle' || $JeuShasse == 'Platine' || $JeuShasse == 'Hearthgold' || $JeuShasse == 'SoulSilver')
                     {
@@ -220,7 +230,12 @@
                     {
                         TroisG()
                         var Image = "../../Dossier_Shiny/Gen3-shiny/";
-                    }else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'SoulSilver' )
+                    }else if (Jeu === 'Colosseum')
+                    {
+                        Colosseum()
+                        var Image = "../../Dossier_Shiny/Gen3-colosseum-shiny/";
+                    }
+                    else if (Jeu === 'Diamant' || Jeu === 'Perle' || Jeu === 'Platine' || Jeu === 'Hearthgold' || Jeu === 'SoulSilver' )
                     {
                         QuatreG()
                         var Image = "../../Dossier_Shiny/Gen4-shiny/";

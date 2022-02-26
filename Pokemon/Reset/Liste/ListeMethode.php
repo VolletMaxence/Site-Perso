@@ -7,6 +7,10 @@ function ListeMethode()
             <option value="Reset"> Reset </option>
         </select>
 
+        <select id="ListeMethodecolosseum" name="ListeMethodecolosseum" class="position-absolute" style="visibility: hidden;">
+            <option value="Rencontre"> Pokémon Obscure </option>
+        </select>
+
         <select id="ListeMethode4G" name="ListeMethode4G" class="position-absolute" style="visibility: hidden;">
             <option value="Rencontre"> Rencontre Aléatoire </option>
             <option value="Reset"> Reset </option>
