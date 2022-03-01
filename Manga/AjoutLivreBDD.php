@@ -49,6 +49,7 @@
                 <option value="Manga"> Manga </option>
                 <option value="BD"> Bande Dessiné </option>
                 <option value="Roman"> Roman </option>
+                <option value="Hentaï"> Hentaï </option>
             </select>
             </div>
 
