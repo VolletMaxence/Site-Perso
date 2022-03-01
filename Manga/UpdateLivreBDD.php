@@ -53,8 +53,21 @@
                     <input type="number" id="nbrTome" name="nbrTome" required style="visibility: hidden;">
                 </div>
                 <div>
-                    <label for="Fini"> Série Fini ? </label>
-                    <input type="checkbox" id="Fini" name="Fini" value="1">
+                    <?php 
+                    if($getLivre["Fini"] == 0)
+                    {
+                        ?>
+                        <label for="Fini"> Série Fini ? </label>
+                        <input type="checkbox" id="Fini" name="Fini" value="1">
+                        <?php
+                    } else if ($getLivre["Fini"] == 1)
+                    {
+                        ?>
+                        <label for="Fini"> Série Fini ? </label>
+                        <input type="checkbox" id="Fini" name="Fini" value="1" checked>
+                        <?php
+                    }
+                    ?>
                 </div>
             </form>
                 <div>
