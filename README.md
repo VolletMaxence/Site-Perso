@@ -1,12 +1,15 @@
 # Site-Perso
 
 - MINECRAFT
-  -Generateur Cercle / Sphere (?)
+  - 
   
   
-- SHOWDOWN
-  Calcul coverage type pokemon
-  Compteur Reset de Shiny
+- Pokémon
+  - Compteur de Shiny
+  - Liste de tout les rubans disponible pour un pokémon donnée
   
 - SKY
   Liste esprit pour les trouver ces enculés / Liste gamin pour faire le pédo
+
+- MANGA
+  - Liste des mangas posséder
