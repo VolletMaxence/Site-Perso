@@ -30,7 +30,7 @@
         </form>
         <?php
         //Obtenir tout les livres en base
-            $stmt = $_SQL->query("SELECT * FROM `manga` WHERE 1");
+            $stmt = $_SQL->query("SELECT * FROM `manga` WHERE 1 ORDER BY `Nom`");
             // selectionne le id du jeux le nom et sa fait une jointure avec articlelike et game
             ?>
             <form method="POST" id="AjoutLivreListe">

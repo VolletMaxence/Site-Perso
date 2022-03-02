@@ -31,7 +31,7 @@
         </form>
         <?php
         //Obtenir tout les livres en base
-            $stmt = $_SQL->query("SELECT * FROM `manga` WHERE 1");
+            $stmt = $_SQL->query("SELECT * FROM `manga` WHERE 1 ORDER BY `Nom`");
             ?>
             <form method="POST" id="AjoutLivreListe">
                 <select id="ListeLivre" name="ListeLivre" class="">

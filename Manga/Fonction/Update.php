@@ -12,8 +12,8 @@
     if ($_POST['nbrTome'] <= $nbrTomeManga['nbrTome'])
     {
         
-        $stmt = $_SQL->prepare("INSERT INTO `mangaUtilisateur`(`ID_Utilisateur`, `ID_Manga`, `nbrTomePosseder`) VALUES (?,?,?)");
-        $stmt->execute(array($_POST['IDUtilisateur'], $_POST['IDManga'], $_POST['nbrTome']));
+        $stmt = $_SQL->prepare("INSERT INTO `mangaUtilisateur`(`ID_Utilisateur`, `ID_Manga`, `nbrTomePosseder`, `nomManga`) VALUES (?,?,?,?)");
+        $stmt->execute(array($_POST['IDUtilisateur'], $_POST['IDManga'], $_POST['nbrTome'], $_POST['nomManga']));
         $UpdateManga = $stmt->fetch();
     } else 
     {

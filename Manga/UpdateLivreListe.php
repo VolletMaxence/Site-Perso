@@ -30,7 +30,7 @@
         </form>
         <?php
         //Obtenir tout les livres en base
-            $stmt = $_SQL->query("SELECT mangaUtilisateur.`ID`, manga.`Nom` FROM `mangaUtilisateur` , `manga` WHERE mangaUtilisateur.`ID_Utilisateur`= ".$_SESSION['IDusername']." AND manga.ID = mangaUtilisateur.ID_Manga");
+            $stmt = $_SQL->query("SELECT mangaUtilisateur.`ID`, manga.`Nom` FROM `mangaUtilisateur` , `manga` WHERE mangaUtilisateur.`ID_Utilisateur`= ".$_SESSION['IDusername']." AND manga.ID = mangaUtilisateur.ID_Manga ORDER BY `Nom`");
             ?>
             <form method="POST" id="AjoutLivreListe">
                 <select id="ListeLivre" name="ListeLivre" class="">

@@ -81,7 +81,7 @@
             //Bouton redirection pour ajouter Manga dans BDD
 
             //Récuperer le manga depuis table MangaUtilisatuer
-            $stmt = $_SQL->prepare("SELECT * FROM `mangaUtilisateur` WHERE `ID_Utilisateur` = ?");
+            $stmt = $_SQL->prepare("SELECT mangaUtilisateur.`ID`, mangaUtilisateur.`ID_Utilisateur`, mangaUtilisateur.`ID_Manga`, mangaUtilisateur.`nbrTomePosseder` FROM `mangaUtilisateur` WHERE `ID_Utilisateur` = ? ORDER BY nomManga");
             $stmt->execute(array($ID));
             while($Manga = $stmt->fetch())
             {
