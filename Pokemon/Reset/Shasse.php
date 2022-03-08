@@ -5,7 +5,7 @@ include "../../Session/BDD.php";
 //include "Fonction/Compteur.php";
 ?>
 
-<html>
+<html lang="fr">
     <head>
         <!--Icone : -->
         <link rel="icon" href="../../Icone/Shellos-Icone.ico">
